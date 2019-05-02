@@ -2,8 +2,8 @@
 layout: default
 title: "newyumi"
 main: true
-subtitle: front-end developer Newyumi at Companywe
-description: Newyumi, who is a front-end developer. | 컴퍼니위에서 일합니다.
+subtitle: front-end developer Yumi Yang at Companywe
+description: Yumi Yang, who is a front-end developer. | 컴퍼니위에서 일합니다.
 ---
 <div class="intro-animation">
 <section class="explanation">
