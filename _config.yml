@@ -1,0 +1,28 @@
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+# Setup
+title:          newyumi
+baseurl:        ""
+url:            "https://newyumi.github.io"
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+
+# About
+author:
+  name:         newyumi
+  url:          https://github.com/newyumi
+  email:        iam.leejihye@gmail.com
+  github:       iamleejihye
+  twitter:      playpingpong
+
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/iamleejihye/iamleejihye.github.io
