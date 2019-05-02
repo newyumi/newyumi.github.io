@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51b6898d-5e71-4b96-be90-a97b821c10de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_site/book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/book/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/book/recently-ridiselect-mar-2019/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/book/recently-ridiselect-mar-2019/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/_site/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,18 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="375">
-                <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="about.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -49,19 +37,6 @@
                 <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_site/about/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1875">
-              <caret line="125" column="8" lean-forward="true" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#7648#7654#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -110,11 +85,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_site/book/recently-ridiselect-mar-2019/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+            <state relative-caret-position="410">
+              <caret line="87" column="24" lean-forward="true" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="27" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_site/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -137,6 +136,9 @@
       <find>QUOIN</find>
       <find>Book</find>
       <find>&lt;a href=&quot;/book&quot;  class=&quot;active&quot; &gt;Book&lt;/a&gt;</find>
+      <find>site based</find>
+      <find>&lt;br/&gt;</find>
+      <find>portfolio site</find>
     </findStrings>
     <replaceStrings>
       <replace>New Yumi</replace>
@@ -158,13 +160,13 @@
         <option value="$PROJECT_DIR$/about.md" />
         <option value="$PROJECT_DIR$/_site/index.html" />
         <option value="$PROJECT_DIR$/_site/about/index.html" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/_site/README.md" />
         <option value="$PROJECT_DIR$/_data/multi-language.yml" />
         <option value="$PROJECT_DIR$/_data/experience.yml" />
         <option value="$PROJECT_DIR$/_site/book/digital-product-designer/index.html" />
         <option value="$PROJECT_DIR$/_site/book/index.html" />
         <option value="$PROJECT_DIR$/_site/book/recently-ridiselect-mar-2019/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/_site/README.md" />
       </list>
     </option>
   </component>
@@ -241,12 +243,12 @@
       <updated>1556820830201</updated>
       <workItem from="1556820831512" duration="64000" />
       <workItem from="1556821311512" duration="3894000" />
-      <workItem from="1556828109311" duration="689000" />
+      <workItem from="1556828109311" duration="781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4647000" />
+    <option name="totallyTimeSpent" value="4739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="604" y="23" width="954" height="1027" extended-state="0" />
@@ -379,26 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -481,8 +463,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_site/book/recently-ridiselect-mar-2019/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+        <state relative-caret-position="410">
+          <caret line="87" column="24" lean-forward="true" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
