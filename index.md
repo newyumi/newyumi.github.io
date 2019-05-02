@@ -13,7 +13,7 @@ description: Newyumi, who is a front-end developer. | 컴퍼니위에서 일합�
     <h1 class="intro">a front-end developer at 
         <div class="intro-link">
             <a class="transition" href="https://www.companywe.co.kr/en/" target="_blank">
-                COMPANYWE
+                Companywe
             </a>
             <div class="underline-mask transition"></div>
             <div class="underline"></div>
