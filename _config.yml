@@ -18,11 +18,10 @@ markdown:       kramdown
 author:
   name:         newyumi
   url:          https://github.com/newyumi
-  email:        iam.leejihye@gmail.com
-  github:       iamleejihye
-  twitter:      playpingpong
+  email:        queen0701@gmail.com
+  github:       newyumi
 
 # Custom vars
 version:        3.4.1
 github:
-  repo:         https://github.com/iamleejihye/iamleejihye.github.io
+  repo:         https://github.com/newyumi/newyumi.github.io
