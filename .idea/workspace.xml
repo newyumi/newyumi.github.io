@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51b6898d-5e71-4b96-be90-a97b821c10de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019-05-02/welcome-to-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019-05-02/welcome-to-jekyll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/2018-year-in-review/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2018-year-in-review/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/project/highlight-img-share/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/project/highlight-img-share/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/img/_about.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,20 +44,20 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="CNAME" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CNAME" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CNAME">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="15" selection-start-column="8" selection-end-column="15" />
+              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="404.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_site/404.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="330">
+              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -136,7 +125,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/_site/README.md" />
         <option value="$PROJECT_DIR$/_site/book/recently-ridiselect-mar-2019/index.html" />
-        <option value="$PROJECT_DIR$/CNAME" />
         <option value="$PROJECT_DIR$/_includes/post-header.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_site/blog/index.html" />
@@ -151,6 +139,7 @@
         <option value="$PROJECT_DIR$/_data/skill-roles.yml" />
         <option value="$PROJECT_DIR$/_site/index.html" />
         <option value="$PROJECT_DIR$/_site/CNAME" />
+        <option value="$PROJECT_DIR$/CNAME" />
       </list>
     </option>
   </component>
@@ -243,25 +232,26 @@
       <updated>1556820830201</updated>
       <workItem from="1556820831512" duration="64000" />
       <workItem from="1556821311512" duration="3894000" />
-      <workItem from="1556828109311" duration="4208000" />
+      <workItem from="1556828109311" duration="4324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8166000" />
+    <option name="totallyTimeSpent" value="8282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="440" y="23" width="1238" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1347576" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.27159208" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.27159208" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3007284" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3007284" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -638,20 +628,20 @@
     <entry file="file://$PROJECT_DIR$/_site/about/img/about.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/_site/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/about/img/about.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/CNAME">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="15" selection-start-column="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
