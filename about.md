@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Yumi Yang"
+title: "Newyumi | About"
 subtitle: "양유미"
 type: "About"
 author: "Yumi Yang"

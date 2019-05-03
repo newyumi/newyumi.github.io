@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "newyumi"
+title: "Newyumi | Home"
 main: true
 subtitle: front-end developer Yumi Yang at Companywe
 description: Yumi Yang, who is a front-end developer. | 컴퍼니위에서 일합니다.
@@ -17,7 +17,7 @@ description: Yumi Yang, who is a front-end developer. | 컴퍼니위에서 일�
             </a>
             <div class="underline-mask transition"></div>
             <div class="underline"></div>
-        </div>.
+        </div>
     </h1>
     <h2 class="intro">컴퍼니위에서 일합니다.</h2>
 </section>
