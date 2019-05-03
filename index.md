@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Newyumi | Home"
+title: "Home"
 main: true
 subtitle: front-end developer Yumi Yang at Companywe
 description: Yumi Yang, who is a front-end developer. | 컴퍼니위에서 일합니다.
