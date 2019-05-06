@@ -98,12 +98,12 @@ electron-packager <sourcedir> <appname> --platform=<platform> --arch=<arch> [opt
 
 ### It generates executables/bundles for the following target platforms:
 
-* Windows (also known as <span style="color:blue">win32</span>, for both 32/64 bit)
-* OS X (also known as <span style="color:blue">darwin</span>) 
-/ [Mac App Store](https://electronjs.org/docs/tutorial/mac-app-store-submission-guide) (also known as <span style="color:blue">mas</span>)*
+* Windows (also known as `win32`, for both 32/64 bit)
+* OS X (also known as `darwin`) 
+/ [Mac App Store](https://electronjs.org/docs/tutorial/mac-app-store-submission-guide) (also known as `mas`)*
 * Linux (for x86, x86_64, armv7l, arm64, and mips64el architectures)
 
-_Note for OS X / MAS target bundles: the <span style="background-color:#e0e0e0"> .app </span> bundle can only be signed when building on a host OS X platform._
+_Note for OS X / MAS target bundles: the `.app` bundle can only be signed when building on a host OS X platform._
 
 <br/><br/>
 
