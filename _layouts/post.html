@@ -22,8 +22,7 @@ layout: default
         </h2>
     </div>
 
-<!--포트폴리오 상단 정보-->
-
+    <!--포트폴리오 상단 정보-->
     {% if page.portfolio == true %}
     <article class="portfolio-info">
         <div>
@@ -46,35 +45,41 @@ layout: default
     </article>
     {% endif %}
 
-<!--draft 일 때-->
-
+    <!--draft 일 때-->
     {% if page.draft == true %}
-        <div class="catalogue-draft-message">
-            <h1>
-                &#x1F64B; Coming Soon!
-            </h1>
-            현재 열심히 글을 쓰고 있어요. 조금만 기다려주세요!
-        </div>
+    <div class="catalogue-draft-message">
+        <h1>
+            &#x1F64B; Coming Soon!
+        </h1>
+        현재 열심히 글을 쓰고 있어요. 조금만 기다려주세요!
+    </div>
     {% endif %}
 
-<!--큐레이션 영역-->
+    <!--큐레이션 영역-->
     {{ content }}
 
-    {% if page.book == true %}
-        {% if page.ridibooks == true %}
-            {% for book-list in site.data[page.data-name] %}
-                <a href="https://ridibooks.com/v2/Detail?id={{ book-list.bookid }}" target="_blank" class="book-link">
-                    <img class="book-cover transition" src="https://misc.ridibooks.com/cover/{{ book-list.bookid }}/xxlarge"/>
-                </a>
-            {% endfor %}
-        {% endif %}
-        {% if page.ridiselect == true %}
-            {% for book-list in site.data[page.data-name] %}
-                <a href="https://select.ridibooks.com/book/{{ book-list.bookid }}" target="_blank" class="book-link">
-                    <img class="book-cover transition" src="https://misc.ridibooks.com/cover/{{ book-list.bookid }}/xxlarge?dpi=xxhdpi"/>
-                </a>
-            {% endfor %}
-        {% endif %}
-    {% endif %}
+    <!--disqus 영역-->
+    {% if page.disqus == true %}
+    <br/><br/>
+    <div id="disqus_thread"></div>
+    <script>
+        /**share transition
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        var disqus_config = function () {
+            this.page.url = window.location.href;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = 'newyumi blog'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
 
+        (function () { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://yumiyang.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+    <script id="dsq-count-scr" src="//yumiyang.disqus.com/count.js" async></script>
+    {% endif %}
 </div>
