@@ -9,7 +9,7 @@ author: "Yumi Yang"
 post-header: false
 header-img: "electron/img/header.jpg"
 order: 1
-date: 2018/12/19
+date: 2018-12-19
 comments: true
 ---
 
