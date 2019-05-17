@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51b6898d-5e71-4b96-be90-a97b821c10de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/async/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/post-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/post-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/async/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/async/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/blog/async/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="430">
-                <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <first_editor relative-caret-position="235">
+                <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
               </first_editor>
               <second_editor />
             </state>
@@ -336,12 +334,12 @@
       <workItem from="1557796119140" duration="786000" />
       <workItem from="1557798859454" duration="475000" />
       <workItem from="1557799572687" duration="217000" />
-      <workItem from="1558064659767" duration="1705000" />
+      <workItem from="1558064659767" duration="1749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42822000" />
+    <option name="totallyTimeSpent" value="42866000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -812,8 +810,8 @@
     <entry file="file://$PROJECT_DIR$/blog/async/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="430">
-            <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <first_editor relative-caret-position="235">
+            <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
           </first_editor>
           <second_editor />
         </state>
