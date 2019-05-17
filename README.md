@@ -4,3 +4,9 @@ https://github.com/newyumi
 It's forked from (chesterhow/tale)[https://github.com/chesterhow/tale].
 
 © newyumi. 2019
+
+
+if you build the site and make it available on a local server
+```
+bundle exec jekyll serve
+```
