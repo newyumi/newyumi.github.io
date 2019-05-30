@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51b6898d-5e71-4b96-be90-a97b821c10de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/blog/async/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/async/index.md" afterDir="false" />
-    </list>
+    <list default="true" id="51b6898d-5e71-4b96-be90-a97b821c10de" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/blog/async/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="235">
-                <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+              <first_editor relative-caret-position="685">
+                <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
               </first_editor>
               <second_editor />
             </state>
@@ -334,12 +332,12 @@
       <workItem from="1557796119140" duration="786000" />
       <workItem from="1557798859454" duration="475000" />
       <workItem from="1557799572687" duration="217000" />
-      <workItem from="1558064659767" duration="1749000" />
+      <workItem from="1558064659767" duration="2437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42866000" />
+    <option name="totallyTimeSpent" value="43554000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -352,7 +350,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="538" y="23" width="1142" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16413917" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298647" />
@@ -810,8 +807,8 @@
     <entry file="file://$PROJECT_DIR$/blog/async/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="235">
-            <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <first_editor relative-caret-position="685">
+            <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           </first_editor>
           <second_editor />
         </state>
