@@ -7,7 +7,7 @@ blog: true
 text: true
 author: "Yumi Yang"
 post-header: true
-header-img: "img/night.jpg"
+header-img: "img/night.JPG"
 order: 5
 date: 2019-06-05
 comments: true
