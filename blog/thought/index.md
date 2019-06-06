@@ -7,7 +7,7 @@ blog: true
 text: true
 author: "Yumi Yang"
 post-header: true
-header-img: "img/night1.jpg"
+header-img: "img/night.jpg"
 order: 5
 date: 2019-06-05
 comments: true
@@ -33,7 +33,7 @@ Anyway, 폰즈 마켓은 조용하고 붐비지 않고 아기자기한것이 아
 
 <br/><br/>
 
-![ponce](img/ponce1.jpg)
+![ponce](img/ponce1.jpg "Ponce entrance")
 ![ponce](img/R0001061.JPG)
 ![ponce](img/R0001080.jpg)
 ![ponce](img/R0001093.jpg)
