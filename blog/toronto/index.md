@@ -2,7 +2,7 @@
 layout: post
 title:  "Toronto에서 살기, 초기 정착 이야기"
 subtitle: "#tornoto #daily #thought"
-type: "Life"
+type: "Live in Toronto"
 blog: true
 text: true
 author: "Yumi Yang"
