@@ -33,12 +33,12 @@ Anyway, 폰즈 마켓은 조용하고 붐비지 않고 아기자기한것이 아
 
 <br/><br/>
 
-![ponce](img/ponce1.jpg "Ponce entrance")
+![ponce](img/ponce1.JPG "Ponce entrance")
 ![ponce](img/R0001061.JPG)
-![ponce](img/R0001080.jpg)
-![ponce](img/R0001093.jpg)
-![ponce](img/R0001108.jpg)
-![ponce](img/R0001114.jpg)
+![ponce](img/R0001080.JPG)
+![ponce](img/R0001093.JPG)
+![ponce](img/R0001108.JPG)
+![ponce](img/R0001114.JPG)
 
 
 <br/><br/>
@@ -64,8 +64,8 @@ Anyway, 폰즈 마켓은 조용하고 붐비지 않고 아기자기한것이 아
 
 <br/><br/>
 
-![broo](img/R0001422.jpg)
-![broo](img/R0001425.jpg)
+![broo](img/R0001422.JPG)
+![broo](img/R0001425.JPG)
 
 <br/><br/>
 
@@ -82,12 +82,12 @@ Anyway, 폰즈 마켓은 조용하고 붐비지 않고 아기자기한것이 아
 
 <br/><br/>
 
-![central](img/R0001651.jpg)
-![central](img/R0001652.jpg)
-![central](img/R0001959.jpg)
-![central](img/R0001937.jpg)
-![central](img/R0002017.jpg)
-![central](img/R0002129.jpg)
+![central](img/R0001651.JPG)
+![central](img/R0001652.JPG)
+![central](img/R0001959.JPG)
+![central](img/R0001937.JPG)
+![central](img/R0002017.JPG)
+![central](img/R0002129.JPG)
 
 <br/><br/>
 
