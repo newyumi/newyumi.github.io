@@ -3,7 +3,7 @@ layout: post
 title:  "Studying react"
 subtitle: "#react #studying"
 type: "To do now / Organizing"
-blog: true
+development: true
 text: true
 author: "Yumi Yang"
 post-header: false

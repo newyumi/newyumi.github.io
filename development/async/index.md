@@ -3,12 +3,12 @@ layout: post
 title:  "영원한 컴퓨터 개발자의 숙제 동기/비동기 "
 subtitle: "#async #promise"
 type: "I am struggling to solve the problem."
-blog: true
+development: true
 text: true
 author: "Yumi Yang"
 post-header: false
 header-img: "async/img/header.jpg"
-order: 4
+order: 3
 date: 2019-05-16
 comments: true
 ---

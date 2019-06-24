@@ -3,7 +3,7 @@ layout: post
 title:  "electron을 이용해서 웹페이지를 애플리케이션으로 배포하기"
 subtitle: "#electron"
 type: "Deploy web page using electron"
-blog: true
+development: true
 text: true
 author: "Yumi Yang"
 post-header: false
