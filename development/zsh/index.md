@@ -90,7 +90,21 @@ source ~/.zshrc
 iTerm에서 아까 색상 바꿨던 옆에 탭에서 Preferenced -> Profiles ->  Text, change font 버튼을 누르고 D2 글씨체를 선택해주면 물음표가 글씨로 돌아온다.
 
 
-### 8. vscode 터미널에도 동일하게 적용
+
+
+
+
+
+### 8. Syntax Hightlight 적용
+없는 명령어를 사용하면 색상으로 알아볼 수 있게 도와준다.
+```
+brew install zsh-syntax-highlighting // 설치
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh // 적용
+```
+
+
+### 9. vscode 터미널에도 동일하게 적용
 설정에서 shell을 검색해서 
 Terminal › Integrated › Shell: Osx 에서 settings.json에서 편집하기가 있고 눌러서 수정해준다.
 글꼴도 동일하게 D2로 변경해주면 되는데, json 파일에서 바로 가능.
@@ -100,3 +114,5 @@ Terminal › Integrated › Shell: Osx 에서 settings.json에서 편집하기�
 ```
 
 <br/>
+
+

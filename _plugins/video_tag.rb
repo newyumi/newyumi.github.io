@@ -59,8 +59,3 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('video', Jekyll::VideoTag)
-
-Liquid::Template.error_mode = :strict # Raises a SyntaxError when invalid syntax is used
-Liquid::Template.error_mode = :warn # Adds errors to template.errors but continues as normal
-Liquid::Template.error_mode = :lax # The default mode, accepts almost anything.
-# Liquid::Template.parse(source, :error_mode => :strict)

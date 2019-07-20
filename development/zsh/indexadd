@@ -1,3 +1,4 @@
+
 ### 8. 긴 이름 짧게 줄이기
 다시
 ``` 
@@ -44,12 +45,4 @@ prompt_newline() {
   echo -n "%{%f%}"
   CURRENT_BG=''
 }
-```
-
-### 10. Syntax Hightlight 적용
-없는 명령어를 사용하면 색상으로 알아볼 수 있게 도와준다.
-```
-brew install zsh-syntax-highlighting // 설치
-
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh // 적용
 ```
