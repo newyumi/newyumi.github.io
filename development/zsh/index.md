@@ -112,8 +112,7 @@ Terminal › Integrated › Shell: Osx 에서 settings.json에서 편집하기�
 다음은 선택적으로 추가하면 되는 부분인데, 가끔 명령어가 길어서 앞에 명령이 부분이 넘어가버리는게 싫어서 추가했다.
 우선 사용자 이름을 짧게 줄이고, 명령어 치는 부분이 새로운 라인으로 시작될 수 있게 해주는 코드이다.
 
-![prom2](img/prom2.png)
-<br/><br/>
+
 ### Option1. 긴 이름 짧게 줄이기
 ``` 
 nano ~/.zshrc
@@ -145,10 +144,10 @@ build_prompt() {
 }
 ```
 
-역시 제일 하단에
+역시 제일 하단에 다음 그림과 같이 코드를 추가해준다.
 ![prom1](img/prom1.png)
-코드를 추가해준다.
 
-
-
-
+<br/><br/>
+완성된 iTerm
+![prom2](img/prom2.png)
+즐거운 코딩하세요 👍🏻
