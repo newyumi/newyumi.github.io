@@ -118,9 +118,11 @@ Terminal › Integrated › Shell: Osx 에서 settings.json에서 편집하기�
 nano ~/.zshrc
 ```
 
-제일 하단에
+제일 하단에 prompt_context() 함수를 추가해준다.
 ![prom](img/prom.png)
-코드를 추가해준다.
+
+~~참고로 export PATH로 시작하는 부분은 flutter PATHT 추가해준 부분~~
+
 
 <br/>
 
@@ -144,7 +146,7 @@ build_prompt() {
 }
 ```
 
-역시 제일 하단에 다음 그림과 같이 코드를 추가해준다.
+역시 제일 하단에 다음 그림과 같이 prompt_newline() 부터 코드를 추가해준다.
 ![prom1](img/prom1.png)
 
 <br/><br/>
