@@ -14,10 +14,6 @@ comments: true
 ---
 
 
-[자세한 설치 방법은 이분글을 통해서!](https://medium.com/harrythegreat/oh-my-zsh-iterm2%EB%A1%9C-%ED%84%B0%EB%AF%B8%EB%84%90%EC%9D%84-%EB%8D%94-%EA%B0%95%EB%A0%A5%ED%95%98%EA%B2%8C-a105f2c01bec)
-
-<br/><br/>
-
 기본쉘인 bash를 사용하는데, flutter에서 PATH 설정해주는걸로 애를 먹다가, 쉘을 zsh로 바꾸게 되었는데 지금 쉘이 너무 이뻐져서 포스팅 ㄱㄱ
 
 위의 글을 보면서 차근히 따라했는데, 잊어버릴까봐 적어놓는거에 목적을 둔다.
@@ -85,13 +81,9 @@ source ~/.zshrc
 
 그리고 나면 물음표의 향연을 볼 수 있다. ㅋㅋㅋㅋ 옛날 이메일 생각나넹.
 <br/>
-### 7. 해리님의 말씀에 따라 D2 코딩폰트를 설치
+### 7. 가독성 좋은 D2 코딩폰트를 설치
 [링크](https://github.com/naver/d2codingfont) 다운받아서 최선버전 -> D2CodingAll 폴더에 들어가서 서체 설치를 해주면 된다.
 iTerm에서 아까 색상 바꿨던 옆에 탭에서 Preferenced -> Profiles ->  Text, change font 버튼을 누르고 D2 글씨체를 선택해주면 물음표가 글씨로 돌아온다.
-
-
-
-
 
 
 
@@ -113,6 +105,50 @@ Terminal › Integrated › Shell: Osx 에서 settings.json에서 편집하기�
 "terminal.integrated.fontFamily": "D2Coding",
 ```
 
+<br/><br/><br/>
+
+
+
+다음은 선택적으로 추가하면 되는 부분인데, 가끔 명령어가 길어서 앞에 명령이 부분이 넘어가버리는게 싫어서 추가했다.
+우선 사용자 이름을 짧게 줄이고, 명령어 치는 부분이 새로운 라인으로 시작될 수 있게 해주는 코드이다.
+
+![prom2](img/prom2.png)
+<br/><br/>
+### Option1. 긴 이름 짧게 줄이기
+``` 
+nano ~/.zshrc
+```
+
+제일 하단에
+![prom](img/prom.png)
+코드를 추가해준다.
+
 <br/>
+
+### Option2. New Line 적용
+```
+nano ~/.oh-my-zsh/themes/agnoster.zsh-theme
+```
+파일을 열고 build_prompt를 찾아서 prompt_newline과 그 아래에 함수를 추가해준다.
+```
+build_prompt() {
+  RETVAL=$?
+  prompt_status
+  prompt_virtualenv
+  prompt_context
+  prompt_dir
+  prompt_git
+  prompt_bzr
+  prompt_hg
+  prompt_newline //순서 맞춰서 이부분을 추가 
+  prompt_end
+}
+```
+
+역시 제일 하단에
+![prom1](img/prom1.png)
+코드를 추가해준다.
+
+
 
 
