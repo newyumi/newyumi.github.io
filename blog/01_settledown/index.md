@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Toronto에서 살기, 초기 정착 이야기"
-subtitle: "#tornoto #daily #thought"
+subtitle: "#Tornoto #토론토 #일상 #daily #thought"
 type: "Live in Toronto"
 blog: true
 text: true
 author: "Yumi Yang"
 post-header: true
 header-img: "img/love.jpg"
-order: 3
+order: 1
 date: 2019-05-14
 comments: true
 ---

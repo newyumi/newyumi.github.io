@@ -18,7 +18,8 @@ Recently I am interested in React and English communication.
 <br/><br/>
 
 ### 컴퍼니위에서 주요 연구실적
-- (2016-현재) 미국 계통연계형 1MW/1MWh ESS 개발 및 실증
+- (2019-현재) 태양광 모니터링 시스템 웹 & 하이브리드 모바일 앱 개발
+- (2016-2019) 미국 계통연계형 1MW/1MWh ESS 개발 및 실증
 - (2018) 인업스 TOC 시스템 개발
 - (2018) 부산도시가스 PCC/EMS 개발 
 - (2017-현재) AMI 인프라를 활용한 국민 VPP 에너지관리시스템 개발

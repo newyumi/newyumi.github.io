@@ -10,3 +10,8 @@ if you build the site and make it available on a local server
 ```
 bundle exec jekyll serve
 ```
+
+if you need to update
+```
+bundle update
+```

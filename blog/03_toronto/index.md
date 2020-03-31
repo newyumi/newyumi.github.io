@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "토론토에 살면서 느끼는 것"
-subtitle: "#tornoto #daily #thought"
+subtitle: "#Tornoto #일상"
 type: "Live in Toronto"
 blog: true
 text: true
 author: "Yumi Yang"
 post-header: true
-header-img: "img/love.jpg"
-order: 6
+header-img: "img/toronto.jpeg"
+order: 3
 date: 2019-07-31
 comments: true
 ---
