@@ -102,6 +102,9 @@ section.skill {
         border: solid 1px $grey-2;
         font-size: 16px;
         margin: 0 8px 14px 0;
+        @media (max-width: $break-small) {
+            margin: 0 2px 4px 0;
+        }
     }
 }
 

@@ -1,6 +1,3 @@
-
-//post header
-
 .post-header {
     background-position: center center;
     background-repeat: no-repeat;
@@ -8,13 +5,15 @@
     width: 100%;
     min-height: 360px;
     background-color: $grey-2;
-
-    @media (max-width: $break-small) {
-        min-height: 200px;
-    }
 }
 
-//project header
+.project-bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 360px;
+}
 
 .project-header {
         font-family: $source, $san-serif;
@@ -42,8 +41,6 @@
 .post-header-bg {
     background-color: $grey-2;
 }
-
-//post 영역
 
 .post {
   padding-bottom: 40px;

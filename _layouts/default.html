@@ -39,12 +39,15 @@
 {% if page.project-header == true %}
 {% include project-header.html %}
 {% endif %}
+{% if page.only-title == true %}
+{% include title-header.html %}
+{% endif %}
 
 <main>
     {{ content }}
 
     {% if page.text == true %}
-    <!--{% include share.html %}-->
+    <!-- {% include share.html %} -->
     {% endif %}
 
 </main>

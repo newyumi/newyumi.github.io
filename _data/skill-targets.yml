@@ -1,9 +1,11 @@
 - name: Node.js®
-- name: AngularJS
 - name: React
 - name: Gatsby
+- name: Angular
+- name: Hybrid app
+- name: ionic
 - name: HTML5/CSS
 - name: SCSS
 - name: SW structure
 - name: Prototyping
-- name: UI Animationx
+- name: UI Animation

@@ -1,10 +1,10 @@
 .container {
-  margin: 40px auto;
+  margin: 0 auto;
+  padding-top: 20px;
   max-width: 750px;
   width: 80%;
     @media (max-width: $break-small) {
         width: 88%;
-        margin: 24px auto;
     }
 }
 
@@ -22,6 +22,9 @@ footer>.footer_wrap,
 .nav {
     overflow: auto;
     padding: 24px 0;
+    @media (max-width: $break-small) {
+        padding: 24px 0 0 0;
+    }
 
   &-container {
       margin: 0 auto;
@@ -48,7 +51,7 @@ footer>.footer_wrap,
       }
       
       @media (max-width: $break-small) {
-          margin: 0 24px 0 0;
+          margin: 0 8px 24px 0;
           font-size: 16px;
       }
       
@@ -71,12 +74,6 @@ footer>.footer_wrap,
     padding-bottom: 0;
 }
 
-a {
-//    color: $grey-0;
-}
-
-//footer
-
 footer {
     font-family: $source;
     padding: 36px 0 46px 0;
@@ -84,6 +81,9 @@ footer {
     color: $default-tint;
     border-top: 1px solid $grey-2;
     border-bottom: 1px solid $grey-2;
+    @media (max-width: $break-small) {
+        padding: 12px 0;
+    }
     
     .footer_wrap {
         font-style: normal;
@@ -129,7 +129,7 @@ footer {
             @media (max-width: $break-small) {
                 float: none;
                 position: static;
-                margin-top: 6px;
+                margin-bottom: 6px;
             }
             span {
                 font-size: 16px;

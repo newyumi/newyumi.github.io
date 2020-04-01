@@ -4,7 +4,7 @@ title: "Development"
 description: 개발과 관련하여 정리하고 싶은 내용이나 남겨두고 싶은 이야기.
 main: true
 project-header: true
-header-img: img/deveolpment-bg.jpg
+header-img: img/developer.jpg
 ---
 
 <ul class="catalogue">
