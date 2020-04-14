@@ -21,3 +21,7 @@ order: 2
 ![diagram](img/centennial1.png)
 ![load](img/centennial2.png)
 ![charge](img/centennial3.png)
+
+<br/><br/>
+> Copyright 2018. Companywe. All rights reserved. <br/>
+> 이곳의 모든 저작권은 컴퍼니위에게 있습니다. 이곳의 모든 사진들은 허가없이 사용할 수 없습니다.
