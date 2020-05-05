@@ -3,7 +3,7 @@ layout: default
 work: true
 main: true
 title: Selected Projects
-description: 지금까지 작업한 프로젝트
+description: 작업한 프로젝트
 project-header: false
 header-img: ""
 only-title: true
