@@ -47,5 +47,5 @@ LG전자 미래IT융합, 인턴<br/>
 
 ### 회사 홈페이지
 
-- [컴퍼니위](https://www.companywe.co.kr/en/)
+- [컴퍼니위](https://www.companywe.co.kr)
 <br />
