@@ -46,12 +46,16 @@
   padding-bottom: 40px;
 
     p {
-        line-height: 1.8;
+        font-size: 11pt;
+        line-height: 22pt;
+        letter-spacing: .8px;
         margin: 0 0 10px 0;
         word-break: break-all;
         font-family: $san-serif;
-        font-weight: 400;
-        letter-spacing: -0.009em;
+        font-weight: 300;
+        color: #333;
+        // line-height: 1.8;
+        // letter-spacing: -0.009em;
 
     sup {
         a.footnote {
@@ -171,6 +175,10 @@
     ol {
         margin: 0;
         padding-left: 10px;
+        font-size: 11pt;
+        line-height: 22pt;
+        letter-spacing: .8px;
+        font-weight: 300;
     }
 
     ol {

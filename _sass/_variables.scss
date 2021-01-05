@@ -1,4 +1,5 @@
 //initialize
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 p, h2 {
     margin: 0;
@@ -29,11 +30,12 @@ $break-medium: 900px;
 $break-small: 670px;
 
 // font-family 정의
-$san-serif: "Source Sans Pro", "APPLE SD Gothic Neo", HelveticaNeue, Helvetica, "NanumGothic", "맑은 고딕", "Malgun Gothic", arial, sans-serif;
+$san-serif: 'Noto Sans KR', sans-serif;
+// $san-serif: "Source Sans Pro", "APPLE SD Gothic Neo", HelveticaNeue, Helvetica, "NanumGothic", "맑은 고딕", "Malgun Gothic", arial, sans-serif;
 $serif: "Nanum Myeongjo",sans-serif;
-$source: 'Source Sans Pro', sans-serif;
+$source: 'Noto Sans KR', sans-serif; //'Source Sans Pro', sans-serif;
 
-$monospaced-font: Menlo, Monaco, monospace;
+$monospaced-font: 'Noto Sans KR', sans-serif; // Menlo, Monaco, monospace;
 $code-color: #bf616a;
 
 @mixin box-sizing($type: border-box) {
