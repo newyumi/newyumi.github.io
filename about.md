@@ -13,7 +13,7 @@ header-img: img/about.jpg
 `에너지 모니터링 시스템`을 만드는 컴퍼니위(Companywe)에서 프론트 엔드 개발자로 5년째 근무 중이다.
 최근에는 리액트와 영어 커뮤니케이션에 관심이 있다.
 
-I have been working as a front-end developer for 5 years at Companywe, which currently makes energy monitoring systems.
+I have been working as a front-end developer for 5 years for Companywe, which currently makes energy monitoring systems.
 Recently I am interested in React and English communication.
 <br/><br/>
 
