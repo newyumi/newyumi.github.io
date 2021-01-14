@@ -54,8 +54,6 @@
         font-family: $san-serif;
         font-weight: 300;
         color: #333;
-        // line-height: 1.8;
-        // letter-spacing: -0.009em;
 
     sup {
         a.footnote {
@@ -195,6 +193,11 @@
             margin-left: 20px;
             line-height: 1.65;
             position: relative;
+            font-size: 11pt;
+            word-break: break-all;
+            font-family: "Noto Sans KR",sans-serif;
+            font-weight: 300;
+            color: #333;
         }
 
         li:before {
@@ -302,7 +305,7 @@ sup {
 
     @media (max-width: $break-small) {
         font-size: 20px;
-        padding: 0 0 90px 0;
+        padding: 0 0 10px 0;
     }
 }
 
