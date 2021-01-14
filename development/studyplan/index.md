@@ -2,13 +2,13 @@
 layout: post
 title: "Front-end study plan"
 subtitle: "#font-end"
-type: "have to study"
+type: "Have to study"
 development: true
 text: true
 author: "Yumi Yang"
 post-header: false
 header-img: "async/img/header.jpg"
-order: 8
+order: 7
 date: 2020-05-05
 comments: true
 ---
