@@ -269,6 +269,11 @@ sup {
 
 .post-type-tag {
     margin: 32px 0;
+
+    @media (max-width: $break-small) {
+        font-size: 16px;
+        margin: 16px 0;
+    }
 }
 
 .post-info>h1.post-title {
@@ -280,7 +285,7 @@ sup {
     letter-spacing: -0.009em;
 
     @media (max-width: $break-small) {
-        font-size: 28px;
+        font-size: 20px;
         line-height: 1.4em;
     }
 }
@@ -293,7 +298,7 @@ sup {
     line-height: 1.5;
 
     @media (max-width: $break-small) {
-        font-size: 20px;
+        font-size: 16px;
         padding: 0 0 0 0;
     }
 }
@@ -304,7 +309,7 @@ sup {
     line-height: 1.5;
 
     @media (max-width: $break-small) {
-        font-size: 20px;
+        font-size: 16px;
         padding: 0 0 10px 0;
     }
 }

@@ -10,6 +10,10 @@
   padding: .2em .4em;
   border-radius: 3px;
   line-height: 1.8;
+
+  @media (max-width: $break-small) {
+    font-size: 14px;
+}
 }
 .highlight .err {
   // color: #151515;
