@@ -25,7 +25,7 @@ comments: true
 결론적으로 `url = https://spreadsheets.google.com/feeds/list/${id}/1/public/values?alt=json` 으로 사용하면 된다.
 - 코드는 본의 아니게 Angular
 
-```
+```javascript
 import {Injectable} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import 'rxjs/add/operator/map';
@@ -91,7 +91,7 @@ If your app has CORS issues when running on the device, you have to fix those an
 그런데 이번에 외부 API를 받아오는 부분인데, 안되서 고생했다. 결론은 jsonp요청으로 해결. 너무 간단해서 황당.
 삽질의 끝은 늘 이모양이죠. header, params를 다 주소에 붙였다. 예시로 간단한 함수 첨부함.
 
-```
+```javascript
 getSites(): Observable<any> {
     return this.http.jsonp(`${Constant.API}/sites/list?api_key=${Constant.KEY}`, 'callback');
   }
@@ -104,7 +104,7 @@ getSites(): Observable<any> {
 Android Studio를 이용해서 애뮬레이터나 실제 기기에 테스트할 때, 배포할 때,
 app/manifests/AndroidManifest.xml 에서 android:usesCleartextTraffic="true" 이부분을 꼭 넣어줘야 http 요청이 가능하다.
 
-```
+```javascript
 <application android:usesCleartextTraffic="true"  android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:supportsRtl="true">
         <activity android:configChanges=" ...
 ```

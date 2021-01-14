@@ -45,13 +45,13 @@ comments: true
 
 관련된 코드를 공유한다.
 
-```
+```javascript
 import Quill from "quill";
 import "quill-mention";
 import "quill-mention/dist/quill.mention.css";
 ```
 
-```
+```javascript
 const [quillEl, setQuillEl] = useState(null);
 let quill = null;
 
@@ -177,8 +177,7 @@ useEffect(() => {
   }, [participants, user]);
 ```
 
-
-```
+```javascript
 // focus, blur 속성을 이용해서 send 버튼 활성화/비활성화
 <div
   className={clsx(
@@ -196,7 +195,7 @@ useEffect(() => {
 >
 ```
 
-```
+```javascript
 // 에디터 영역, 파일 표시 부분을 따로 추가
 <div id="editor">
   {(files.length > 0 || loadingFile !== null) && (
@@ -232,7 +231,7 @@ useEffect(() => {
 </div>
 
 
-// 툴바 영역         
+// 툴바 영역
 <div id="toolbar" className="ql-toolbar ql-snow">
   <span className="toolbar">
     <div

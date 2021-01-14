@@ -1,27 +1,33 @@
 # Permalinks
-permalink:      /:year-:month-:day/:title
+permalink: /:year-:month-:day/:title
 
 # Setup
-title:          newyumi
-baseurl:        ""
-url:            "https://newyumi.github.io"
+title: newyumi
+baseurl: ""
+url: "https://newyumi.github.io"
 
 # Assets
 sass:
-  sass_dir:     _sass
-  style:        :compressed
+  sass_dir: _sass
+  style: :compressed
 
 # Build settings
-markdown:       kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: javascript
+    css_class: "syntax"
 
 # About
 author:
-  name:         newyumi
-  url:          https://github.com/newyumi
-  email:        queen0701@gmail.com
-  github:       newyumi
+  name: newyumi
+  url: https://github.com/newyumi
+  email: queen0701@gmail.com
+  github: newyumi
 
 # Custom vars
-version:        3.4.1
+version: 3.4.1
 github:
-  repo:         https://github.com/newyumi/newyumi.github.io
+  repo: https://github.com/newyumi/newyumi.github.io
