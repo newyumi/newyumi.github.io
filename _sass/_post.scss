@@ -264,7 +264,7 @@ sup {
     color: $purple;
     font-size: 18px;
     font-family: $source;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .post-type-tag {
@@ -279,7 +279,7 @@ sup {
 .post-info>h1.post-title {
     padding: 0 0 12px 0;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 24px;
     font-family: $san-serif;
     line-height: 1.2;
     letter-spacing: -0.009em;
@@ -293,7 +293,7 @@ sup {
 .post-info>h2.post-subtitle {
     padding: 0 0 0 0;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 16px;
     color: $grey-1;
     line-height: 1.5;
 
@@ -305,7 +305,7 @@ sup {
 
 .post-info>h3.post-date {
     padding: 0 0 60px 0;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
 
     @media (max-width: $break-small) {
