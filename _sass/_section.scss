@@ -14,13 +14,13 @@ section.explanation {
     
     h1.intro {
         font-family: $source, $san-serif;
-        font-size: 38px;
+        font-size: 32px;
         font-weight: bold;
         line-height: 1.17;
         margin: 0;
     
         @media (max-width: $break-small) {
-        font-size: 32px;
+        font-size: 24px;
         }
         
         @media (max-width: 550px) {

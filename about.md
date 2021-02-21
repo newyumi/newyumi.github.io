@@ -6,7 +6,7 @@ type: "About"
 author: "Yumi Yang"
 permalink: /about/
 post-header: true
-header-img: img/about.jpg
+header-img: ../img/about.jpg
 ---
 
 # 현재

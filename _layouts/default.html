@@ -4,56 +4,57 @@
 {% include head.html %}
 
 <body>
-{% assign current = page.url | downcase | split: '/' %}
-<nav class="nav">
-    <div class="nav-container">
-        <ul>
-            <li class="transition">
-                <a href="{{ '' | prepend: site.baseurl }}/" 
-                {% if current[1] == "about" or current[1] == "blog" or current[1] == "book" or current[1] == "project" or current[1] == "development" %} 
-                class="normal" {% endif %} class="active">Home</a>
-            </li>
-            <li class="transition">
-                <a href="{{ '/project' | prepend: site.baseurl }}" {% if current[1] == "project" %} class="active"{%
-                endif %} >Project</a>
-            </li>
-            <li class="transition">
-                <a href="{{ '/development' | prepend: site.baseurl }}" {% if current[1] == "development" %} class="active"{%
-                endif %} >Development</a>
-            </li>
-            <li class="transition">
-                <a href="{{ '/blog' | prepend: site.baseurl }}" {% if current[1] == "blog" %} class="active"{% endif %}
-                >Blog</a>
-            </li>
-            <li class="transition">
-                <a href="{{ '/about' | prepend: site.baseurl }}" {% if current[1] == "about" %} class="active"{% endif %}
-                >About</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+	{% assign current = page.url | downcase | split: '/' %}
+	<nav class="nav">
+		<div class="nav-container">
+			<ul>
+				<li class="transition">
+					<a href="{{ '' | prepend: site.baseurl }}/" {% if current[1]=="about" or current[1]=="blog" or
+						current[1]=="book" or current[1]=="project" or current[1]=="development" %} class="normal" {% endif %}
+						class="active">Home</a>
+				</li>
+				<li class="transition">
+					<a href="{{ '/project' | prepend: site.baseurl }}" {% if current[1]=="project" %} class="active" {% endif
+						%}>Project</a>
+				</li>
+				<li class="transition">
+					<a href="{{ '/development' | prepend: site.baseurl }}" {% if current[1]=="development" %} class="active" {%
+						endif %}>Development</a>
+				</li>
+				<li class="transition">
+					<a href="{{ '/blog' | prepend: site.baseurl }}" {% if current[1]=="blog" %} class="active" {% endif
+						%}>Blog</a>
+				</li>
+				<li class="transition">
+					<a href="{{ '/about' | prepend: site.baseurl }}" {% if current[1]=="about" %} class="active" {% endif
+						%}>About</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-{% if page.post-header == true %}
-{% include post-header.html %}
-{% endif %}
-{% if page.project-header == true %}
-{% include project-header.html %}
-{% endif %}
-{% if page.only-title == true %}
-{% include title-header.html %}
-{% endif %}
+	{% if page.post-header == true %}
+	{% include post-header.html %}
+	{% endif %}
+	{% if page.project-header == true %}
+	{% include project-header.html %}
+	{% endif %}
+	{% if page.only-title == true %}
+	{% include title-header.html %}
+	{% endif %}
 
-<main>
-    {{ content }}
+	<main>
+		{{ content }}
 
-    {% if page.text == true %}
-    <!-- {% include share.html %} -->
-    {% endif %}
+		{% if page.text == true %}
+		<!-- {% include share.html %} -->
+		{% endif %}
 
-</main>
+	</main>
 
-{% include footer.html %}
+	{% include footer.html %}
 
-<script id="dsq-count-scr" src="//yumiyang.disqus.com/count.js" async></script>
+	<script id="dsq-count-scr" src="//yumiyang.disqus.com/count.js" async></script>
 </body>
+
 </html>

@@ -1,7 +1,7 @@
 ---
 layout: post
 author: "Yumi Yang"
-title:  "TOC project"
+title: "TOC project"
 subtitle: "Top Operation Control System"
 type: "Energy Monitoring"
 projects: true
@@ -25,11 +25,11 @@ order: 1
 ![toc1](img/toc1.png)
 
 ![toc2](img/toc2.png)
+
 ###### Structure of TOC
 
 컴퍼니위의 자체 개발 플랫폼인 CONCORDIA는 오픈소스 및 GPU기반의 최적화된 고속 빅데이터 시스템과 기계학습 시스템으로 이루어져 있다.
 TOC는 그 프로젝트 중 대표적인 프로그램이다.
-
 
 # Overview
 
@@ -41,13 +41,12 @@ TOC는 Total Operation Control의 약자로, 흩어져 있는 사이트들의 �
 ESS(Energy Storage System) / Solar(태양광) / [DR(Demand Response)](https://en.wikipedia.org/wiki/Demand_response)로 크게 세 종류로 분류되어 있다.
 메인 화면에서는 전반적인 각각의 상태를 보여주고, 세부 화면으로 이동할 수 있게 라우팅을 설정하였다.
 
-
 # Structure
 
 ## Language
 
-Node.js 기반으로 Angular1.7.8 버전으로 개발하였다. 처음 일을 시작할 때 앵귤러와 함께 시작해서 앵귤러에 대해 애정이 있지만, 
-다음 버전의 Angular는 이전 버전과는 무척이나 다르기 때문에 쉽게 다음 버전으로 넘어가지 못하고 있다. 
+Node.js 기반으로 Angular1.7.8 버전으로 개발하였다. 처음 일을 시작할 때 앵귤러와 함께 시작해서 앵귤러에 대해 애정이 있지만,
+다음 버전의 Angular는 이전 버전과는 무척이나 다르기 때문에 쉽게 다음 버전으로 넘어가지 못하고 있다.
 아마도 이 프로젝트가 앵귤러를 사용했던 마지막 프로그램이 되지 않을까 싶다.
 
 ## 가장 많이 사용하는 라이브러리
@@ -64,12 +63,13 @@ Node.js 기반으로 Angular1.7.8 버전으로 개발하였다. 처음 일을 �
 ## Map
 
 ![map](img/map.png)
+
 ###### 위치 이동, 해당 위치에 마커 또는 정보 표시.
 
-우리 회사가 사랑하는 [mapbox](https://www.mapbox.com/). Mapbox GL JS에 유저가 원할만한 기능은 거진 다 있다고 보면 된다. 
+우리 회사가 사랑하는 [mapbox](https://www.mapbox.com/). Mapbox GL JS에 유저가 원할만한 기능은 거진 다 있다고 보면 된다.
 기본적인 사용은 무료인데, 상용 프로그램에서 사용하거나 사용량이 많으면 유료로 전환할 수 있다.
 
-
 <br/><br/>
+
 > Copyright 2018. Companywe. All rights reserved. <br/>
 > 이곳의 모든 저작권은 컴퍼니위에게 있습니다. 이곳의 모든 사진들은 허가없이 사용할 수 없습니다.
