@@ -1,7 +1,7 @@
 ---
 layout: post
 author: "Yumi Yang"
-title:  "Active PV hybrid app"
+title: "Active PV hybrid app"
 subtitle: "태양광 모니터링을 위한 하이브리드 앱 개발"
 type: "Energy Monitoring"
 projects: true
@@ -34,5 +34,6 @@ angular2-highcharts를 사용하였는데, 사용법이 간단하고 디자인�
 ![setting](img/3.jpg)
 
 <br/><br/>
-> Copyright 2018. Companywe. All rights reserved. <br/>
+
+> Copyright 2020. Companywe. All rights reserved. <br/>
 > 이곳의 모든 저작권은 컴퍼니위에게 있습니다. 이곳의 모든 사진들은 허가없이 사용할 수 없습니다.

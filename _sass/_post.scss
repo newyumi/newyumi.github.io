@@ -16,14 +16,14 @@
 }
 
 .project-header {
-        font-family: $source, $san-serif;
-        color: $grey-0;
+    font-family: $source, $san-serif;
+    color: $grey-0;
     .header-project-title {
         font-weight: 700;
-        font-size: 38px;
+        font-size: 32px;
 
         @media (max-width: $break-small) {
-            font-size: 32px;
+            font-size: 26px;
         }
     }
 
@@ -399,11 +399,11 @@ sup {
 
     .info-medium {
         color: $grey-0-80;
-        font-size: 17px;
+        font-size: 16px;
     }
 
     .info-small {
-        font-size: 16px;
+        font-size: 14px;
         letter-spacing: .4px;
         color: $grey-1;
     }

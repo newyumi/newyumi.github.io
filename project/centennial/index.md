@@ -1,7 +1,7 @@
 ---
 layout: post
 author: "Yumi Yang"
-title:  "Centennial project"
+title: "Centennial project"
 subtitle: "Centennial College Solar-Charger System"
 type: "Energy Monitoring"
 projects: true
@@ -23,5 +23,6 @@ order: 2
 ![charge](img/centennial3.png)
 
 <br/><br/>
-> Copyright 2018. Companywe. All rights reserved. <br/>
+
+> Copyright 2019. Companywe. All rights reserved. <br/>
 > 이곳의 모든 저작권은 컴퍼니위에게 있습니다. 이곳의 모든 사진들은 허가없이 사용할 수 없습니다.

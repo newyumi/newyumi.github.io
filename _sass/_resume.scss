@@ -103,7 +103,8 @@ section.skill {
         font-size: 16px;
         margin: 0 8px 14px 0;
         @media (max-width: $break-small) {
-            margin: 0 2px 4px 0;
+            margin: 0 2px 6px 0;
+						padding: 2px 12px;
         }
     }
 }
