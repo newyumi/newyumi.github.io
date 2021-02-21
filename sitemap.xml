@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://newyumi.github.io/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/project/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/development/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/blog/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/about/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/project/activepv/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/project/centennial/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/project/toc/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/development/quill/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/development/studyplan/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/development/ionic/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/development/zsh/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/development/flutter/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/development/async/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/development/react/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/development/electron/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/blog/20201128/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/blog/20201009/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/blog/20200205/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/blog/20190731/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/blog/20190605/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://newyumi.github.io/blog/20190514/</loc>
+  <lastmod>2021-02-21T06:03:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
