@@ -416,3 +416,9 @@ video {
 .post img {
     margin: 20px 0 !important;
 }
+
+.utterances {
+    div, button, [type=reset], [type=submit], button, html [type=button] {
+      outline: none !important;
+    }
+  }

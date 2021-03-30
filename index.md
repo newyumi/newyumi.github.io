@@ -21,7 +21,6 @@ description: Yumi Yang, who is a front-end developer. | 컴퍼니위에서 일�
             </div>
         </h1>
         <h2 class="intro">컴퍼니위에서 일합니다.</h2>
-        <img src="/img/tradingcard.png" style="margin: 16px 0"/>
     </section>
 </div>
 {% include resume.html %}

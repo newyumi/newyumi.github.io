@@ -61,10 +61,8 @@ layout: default
 	<!--큐레이션 영역-->
 	{{ content }}
 
-	<!--disqus 영역-->
+	<!--comments 영역-->
 	{% if page.comments == true %}
-	<br /><br />
 	{% include comments.html %}
-
 	{% endif %}
 </div>

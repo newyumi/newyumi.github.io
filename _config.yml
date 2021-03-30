@@ -31,3 +31,9 @@ author:
 version: 3.4.1
 github:
   repo: https://github.com/newyumi/newyumi.github.io
+
+comments:
+  provider: utterances
+  utterances:
+  theme: "dark-blue"
+  issue_term: "pathname"
