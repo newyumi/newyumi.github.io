@@ -20,7 +20,7 @@ order: 1
 
 # Background
 
-## CONCORDIA
+### CONCORDIA
 
 ![toc1](img/toc1.png)
 
@@ -33,7 +33,7 @@ TOC는 그 프로젝트 중 대표적인 프로그램이다.
 
 # Overview
 
-## Energy Monitoring
+### Energy Monitoring
 
 TOC는 Total Operation Control의 약자로, 흩어져 있는 사이트들의 전력량과 그에 관련된 정보들을 한 곳에서 모니터링하고 컨트롤 할 수 있도록
 만든 시스템이다. 웹 기반으로 되어 있어 통신이 되는 곳에서 접근이 가능하지만 OTP로 등록되어 있는 특정한 유저들만을 위한 시스템이다.
@@ -43,24 +43,24 @@ ESS(Energy Storage System) / Solar(태양광) / [DR(Demand Response)](https://en
 
 # Structure
 
-## Language
+### Language
 
 Node.js 기반으로 Angular1.7.8 버전으로 개발하였다. 처음 일을 시작할 때 앵귤러와 함께 시작해서 앵귤러에 대해 애정이 있지만,
 다음 버전의 Angular는 이전 버전과는 무척이나 다르기 때문에 쉽게 다음 버전으로 넘어가지 못하고 있다.
 아마도 이 프로젝트가 앵귤러를 사용했던 마지막 프로그램이 되지 않을까 싶다.
 
-## 가장 많이 사용하는 라이브러리
+### 가장 많이 사용하는 라이브러리
 
 프로그램 특성상 차트를 많이 사용하는데, 이번엔 echart를 사용하였다. 종류가 다양하고 커스텀이 용이한편.
 그리고 하나의 데이터를 여러모양으로 변환하여 사용하는 경우들이 많아 lodash를 이용하였다.
 
-## Call datas
+### Call datas
 
 처음 로딩시에는 RESTful API를 호출하여 DB에 있는 값을 불러오고, 테이블이나 차트와 같은 정형화된 데이터를 사용하는 부분은 5분 단위로 재호출을 하였다.
 실시간 데이터가 필요한 부분은 Queue를 사용하여 큐를 받을 때마다 바인딩하여 실시간 값을 유지하였다. (stomp client를 사용)
 그리고 페이지를 이동하는 경우에는 interval 객체를 삭제하고, 해당 큐 구독을 취소하였다.
 
-## Map
+### Map
 
 ![map](img/map.png)
 

@@ -21,7 +21,7 @@ Recently I am interested in Block-chain skill and English communication.
 ### 컴퍼니위에서 주요 연구실적
 
 - (2021 - 현재) 위치 기반의 건물 서비스를 제공하는 Tela place 모바일 어플리케이션 PO로 참여중
-- (2021) 협업프로그램 Last apple tree 하이브리드 어플리케이션 개발
+- (2021) 협업 프로그램 Last apple tree 하이브리드 모바일 어플리케이션 개발
 - (2020) 그룹웨어와 연동되는 협업시스템 Works 개발 진행중
 - (2019) 태양광 모니터링 시스템 웹 & 하이브리드 모바일 앱 개발
 - (2016-2019) 미국 계통연계형 1MW/1MWh ESS 개발 및 실증
