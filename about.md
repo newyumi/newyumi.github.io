@@ -11,16 +11,18 @@ header-img: ../img/about.jpg
 
 # 현재
 
-`에너지 모니터링 시스템`을 만드는 컴퍼니위(Companywe)에서 프론트 엔드 개발자로 5년째 근무 중이다.
-최근에는 리액트와 영어 커뮤니케이션에 관심이 있다.
+`에너지 모니터링 시스템`을 만드는 컴퍼니위(Companywe)에서 플랫폼 개발팀의 프론트 엔드 개발자로 6년째 근무 중이다.
+최근에는 블록체인 기술과 영어 커뮤니케이션에 관심이 있다.
 
-I have been working as a front-end developer for 5 years for Companywe, which currently makes energy monitoring systems.
-Recently I am interested in React and English communication.
+I have been working as a front-end developer for 6 years for Companywe, which currently makes energy monitoring systems.
+Recently I am interested in Block-chain skill and English communication.
 <br/><br/>
 
 ### 컴퍼니위에서 주요 연구실적
 
-- (2020-현재) 그룹웨어와 연동되는 협업시스템 Works 개발 진행중
+- (2021 - 현재) 위치 기반의 건물 서비스를 제공하는 Tela place 모바일 어플리케이션 PO로 참여중
+- (2021) 협업프로그램 Last apple tree 하이브리드 어플리케이션 개발
+- (2020) 그룹웨어와 연동되는 협업시스템 Works 개발 진행중
 - (2019) 태양광 모니터링 시스템 웹 & 하이브리드 모바일 앱 개발
 - (2016-2019) 미국 계통연계형 1MW/1MWh ESS 개발 및 실증
 - (2018) 인업스 TOC 시스템 개발

@@ -5,6 +5,11 @@ It's forked from (chesterhow/tale)[https://github.com/chesterhow/tale].
 
 © newyumi. 2019
 
+# install
+https://jekyllrb-ko.github.io/
+
+# current version 
+jekyll 4.2
 
 if you build the site and make it available on a local server
 ```
