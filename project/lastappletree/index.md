@@ -33,33 +33,8 @@ order: 5
 [Last apple tree 홈페이지](https://www.lastappletree.com/) 에서 다운받으실 수 있습니다 👍
 <br/><br/>
 
-<div class="lat-images" style="display:flex;width:100%;margin-left:-30px;">
-<img src="img/0.2 onboarding.png" width="200"/>
-<img src="img/1.1 signup.png" width="200"/>
-<img src="img/2 main.png" width="200"/>
-<img src="img/2.4 my calendar(left swipe).png" width="200"/>
+<div class="lat-images" style="display:flex;width:100%;">
+<img src="img/2 main.png" width="180"/>
+<img src="img/4.5.6 completed.png" width="180"/>
 </div>
-
 <br/><br/>
-
-<div class="lat-images" style="display:flex;width:100%;margin-left:-30px;">
-<img src="img/2.5 Inbox(all).png" width="200"/>
-<img src="img/3.9 completed workboard.png" width="200"/>
-<img src="img/4.2 expand menu(host).png" width="200"/>
-<img src="img/4.3 participants.png" width="200"/>
-</div>
-
-<br/><br/>
-
-<div class="lat-images" style="display:flex;width:100%;margin-left:-30px;">
-<img src="img/4.5.3 reply.png" width="200"/>
-<img src="img/4.5.5 final output(list).png" width="200"/>
-<img src="img/4.5.6 completed.png" width="200"/>
-<img src="img/5 coworkers.png" width="200"/>
-</div>
-
-<style>
-	.lat-images > img {
-		margin-right: 4px !important;
-	}
-</style>

@@ -9,7 +9,13 @@ It's forked from (chesterhow/tale)[https://github.com/chesterhow/tale].
 https://jekyllrb-ko.github.io/
 
 # current version 
-jekyll 4.2
+jekyll 4.2.1
+
+```
+gem install jekyll bundler
+
+bundle exec jekyll serve
+```
 
 if you build the site and make it available on a local server
 ```

@@ -20,6 +20,7 @@ Recently I am interested in Block-chain skill and English communication.
 
 ### 컴퍼니위에서 주요 연구실적
 
+- (2022 - 현재) 대전시 스마트시티챌린지 주차공유시스템 기술PM
 - (2021 - 현재) 위치 기반의 건물 서비스를 제공하는 Tela place 모바일 어플리케이션 PO로 참여중
 - (2021) 협업 프로그램 Last apple tree 하이브리드 모바일 어플리케이션 개발
 - (2020) 그룹웨어와 연동되는 협업시스템 Works 개발 진행중
@@ -37,7 +38,7 @@ Recently I am interested in Block-chain skill and English communication.
 # 경력
 
 퍼릭스, 개발팀<br/>
-기업 내 협업 프로그램인 cocoworks의 client 팀에서 프로그램 개발.
+기업 내 협업 프로그램인 cocoworks의 client 팀에서 프로그램 개발. ~~시대를 너무 앞지름~~
 <br/><br/>
 
 인피니트 헬스케어, 산학협력단<br/>
