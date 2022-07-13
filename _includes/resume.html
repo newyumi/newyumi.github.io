@@ -3,15 +3,34 @@
 		<div class="resume-info">
 			<p class="second-label">
 				<span class="label-emoji">
-					&#x1F64B;
+					&#x2615;
+				</span>
+				&nbsp; 컴퍼니위에서 주요 연구실적
+			</p>
+		</div>
+		<ul class="worklist">
+			{% for work in site.data.worklist %}
+			<li>
+				- {{ work.name }}
+			</li>
+			{% endfor %}
+		</ul>
+	</section>
+</div>
+
+
+<div class="loading-animation">
+	<section class="resume">
+		<div class="resume-info">
+			<p class="second-label">
+				<span class="label-emoji">
+					&#x1F440;
 				</span>
 				&nbsp; I've worked for
 			</p>
 		</div>
 		<ul>
-
 			{% include project-list.html %}
-
 		</ul>
 
 		<a href="{{ site.baseurl | append: '/project' }}" class="transition">
@@ -30,7 +49,6 @@
 				</svg>
 			</div>
 		</a>
-
 	</section>
 
 

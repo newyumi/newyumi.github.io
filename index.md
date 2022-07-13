@@ -11,16 +11,8 @@ description: Yumi Yang, who is a front-end developer. | 컴퍼니위에서 일�
         <h1 class="intro">
         I'm yumi,
         </h1>
-        <h1 class="intro">a front-end developer for 
-            <div class="intro-link">
-                <a class="transition" href="https://www.companywe.co.kr" target="_blank">
-                    Companywe
-                </a>
-                <div class="underline-mask transition"></div>
-                <div class="underline"></div>
-            </div>
-        </h1>
-        <h2 class="intro">컴퍼니위에서 일합니다.</h2>
+        <h1 class="intro">a front-end developer</h1>
+        <h2 class="intro">개발합니다.</h2>
     </section>
 </div>
 {% include resume.html %}
