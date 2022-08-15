@@ -42,22 +42,6 @@
 			</li>
 			{% endfor %}
 		</ul>
-	</section>
-</div>
-
-<div class="loading-animation">
-	<section class="resume">
-		<div class="resume-info">
-			<p class="second-label">
-				<span class="label-emoji">
-					&#x1F440;
-				</span>
-				&nbsp; I've worked for
-			</p>
-		</div>
-		<ul>
-			{% include project-list.html %}
-		</ul>
 
 		<a href="{{ site.baseurl | append: '/project' }}" class="transition">
 			<div class="view-all-projects transition">
@@ -76,7 +60,22 @@
 			</div>
 		</a>
 	</section>
+</div>
 
+<div class="loading-animation">
+	<section class="resume">
+		<div class="resume-info">
+			<p class="second-label">
+				<span class="label-emoji">
+					&#x1F440;
+				</span>
+				&nbsp; I've worked for
+			</p>
+		</div>
+		<ul>
+			{% include project-list.html %}
+		</ul>
+	</section>
 
 	<section class="skill">
 		<div class="resume-info">
