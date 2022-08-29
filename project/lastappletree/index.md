@@ -34,7 +34,6 @@ order: 5
 <br/><br/>
 
 <div class="lat-images" style="display:flex;width:100%;">
-<img src="img/2 main.png" width="180"/>
-<img src="img/4.5.6 completed.png" width="180"/>
+<img src="img/homepage.png"/>
 </div>
 <br/><br/>

@@ -128,9 +128,14 @@ nano ~/.zshrc
 ```
 
 제일 하단에 prompt_context() 함수를 추가해준다.
-![prom](img/prom.png)
 
-~~참고로 export PATH로 시작하는 부분은 flutter PATHT 추가해준 부분~~
+```
+prompt_context() {
+  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
+    prompt_segment black default "%(!.% F{yellow}%}.)$USER"
+  fi
+}
+```
 
 <br/>
 
@@ -158,8 +163,24 @@ build_prompt() {
 ```
 
 역시 제일 하단에 다음 그림과 같이 prompt_newline() 부터 코드를 추가해준다. <br/>
-(코드를 그대로 붙였더니 에러가 나서 사진으로 대체)
-![prom1](img/prom1.png)
+
+```
+{%raw%}
+PROMPT='%{%f%b%k%}$(build_prompt) '
+
+prompt_newline() {
+ if [[ -n $CURRENT_BG ]]; then
+    echo -n "%{%k%F{$CURRENT_BG}%}$SEGMENT_SEPARATOR
+    %{%k%F{blue}%}$SEGMENT_SEPARATOR"
+ else
+    echo -n "%{%k%}"
+ fi
+
+ echo -n "%{%f%}"
+ CURRENT_BG=''
+ {%endraw%}
+}
+```
 
 <br/><br/>
 완성된 iTerm

@@ -144,4 +144,4 @@ electron-packager <sourcedir> <appname> --platform=<platform> --arch=<arch> [opt
 그리고 나면 실행한 위치에 appname-[platform-x64] 과 같은 폴더가 생기고 그 안에 실행파일이 생성되어있다.
 
 사실 가장 좋은 방법은 프로그램 폴더 안에서 프로그램을 build해서 electron으로 포팅해주면 가장 깔끔할 것 같은데, webpack 파일을 아직 자유자재로 다루지 못해서 이런 방법으로 애플리케이션을 만들게 되었다. 우선은 이렇게 사용해보고 계속해서 스터디를 해 볼 예정이다. 
-~~혹시 webpack.config 파일에서 electron app위에 npm build, start 등을 할 수 있는 방법을 아신다면 알려주세요.~~
+
