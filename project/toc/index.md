@@ -22,14 +22,14 @@ order: 1
 
 ### CONCORDIA
 
+컴퍼니위의 자체 개발 플랫폼인 CONCORDIA는 오픈소스 및 GPU기반의 최적화된 고속 빅데이터 시스템과 기계학습 시스템으로 이루어져 있다.
+TOC는 그 프로젝트 중 대표적인 프로그램이다.
+
 ![toc1](img/toc1.png)
 
 ![toc2](img/toc2.png)
 
 ###### Structure of TOC
-
-컴퍼니위의 자체 개발 플랫폼인 CONCORDIA는 오픈소스 및 GPU기반의 최적화된 고속 빅데이터 시스템과 기계학습 시스템으로 이루어져 있다.
-TOC는 그 프로젝트 중 대표적인 프로그램이다.
 
 # Overview
 
