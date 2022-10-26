@@ -1,25 +1,35 @@
-.highlight table td { padding: 5px; }
-.highlight table pre { margin: 0; }
+.highlight table td {
+  padding: 5px;
+}
+.highlight table pre {
+  margin: 0;
+}
 .highlighter-rouge {
   margin: 0 0 2rem;
   overflow-x: auto;
   background-color: $grey-4;
+  font-family: $source;
 }
-.highlight, .highlight .w {
+.highlight,
+.highlight .w {
   color: #303030;
-  padding: .2em .4em;
+  padding: 0.2em 0.4em;
   border-radius: 3px;
   line-height: 1.8;
 
   @media (max-width: $break-small) {
     font-size: 14px;
-}
+  }
 }
 .highlight .err {
   // color: #151515;
   // background-color: #ac4142;
 }
-.highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
+.highlight .c,
+.highlight .cd,
+.highlight .cm,
+.highlight .c1,
+.highlight .cs {
   color: #505050;
 }
 .highlight .cp {
@@ -28,10 +38,12 @@
 .highlight .nt {
   color: #f4bf75;
 }
-.highlight .o, .highlight .ow {
+.highlight .o,
+.highlight .ow {
   color: #d0d0d0;
 }
-.highlight .p, .highlight .pi {
+.highlight .p,
+.highlight .pi {
   color: #d0d0d0;
 }
 .highlight .gi {
@@ -45,7 +57,11 @@
   background-color: #151515;
   font-weight: bold;
 }
-.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+.highlight .k,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kv {
   color: #aa759f;
 }
 .highlight .kc {
@@ -57,7 +73,14 @@
 .highlight .kd {
   color: #d28445;
 }
-.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .sh,
+.highlight .sx,
+.highlight .s1 {
   color: #90a959;
 }
 .highlight .sr {
@@ -81,7 +104,14 @@
 .highlight .na {
   color: #6a9fb5;
 }
-.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
+.highlight .m,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .il,
+.highlight .mo,
+.highlight .mb,
+.highlight .mx {
   color: #90a959;
 }
 .highlight .ss {

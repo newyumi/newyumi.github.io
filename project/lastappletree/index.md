@@ -11,6 +11,7 @@ post-header: false
 header-img: "img/main.png"
 main-img: "lastappletree/img/chat-05.png"
 target-title: "업무 협업을 위한 하이브리드 모바일 어플리케이션 개발"
+role: "프로덕트 매니저 및 개발"
 team: "엔지니어 3명, 디자이너 2명"
 platforms: "ios, android"
 date: "June 2021 - Dec 2021"
