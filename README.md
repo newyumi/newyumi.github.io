@@ -26,3 +26,7 @@ if you need to update
 ```
 bundle update
 ```
+
+
+# directory structure
+https://jekyllrb-ko.github.io/docs/structure/

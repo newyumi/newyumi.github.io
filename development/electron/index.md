@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "electron을 이용해서 웹페이지를 애플리케이션으로 배포하기"
+title: "electron을 이용해서 웹페이지를 애플리케이션으로 배포하기"
 subtitle: "#electron"
 type: "Deploy web page using electron"
 development: true
@@ -13,9 +13,7 @@ date: 2018-12-19
 comments: true
 ---
 
-
 목적은 단지 웹페이지를 앱st 하는 것이기 때문에 electron-quick-start git을 다운받고 페이지 주소를 넣어서 로딩하였다. 별 일은 아니었지만 삽질의 기록을 남긴다.
-
 
 ```
 # Clone this repository
@@ -32,25 +30,25 @@ npm start
 
 ```javascript
 mainWindow = new BrowserWindow({
-    width: 1920,
-    height: 1080,
-    backgroundColor: '#0D0D0D',
-    fullscreen: true
+  width: 1920,
+  height: 1080,
+  backgroundColor: "#0D0D0D",
+  fullscreen: true,
 });
 ```
 
 기본적으로 index.html 파일을 적용하는데 이부분을 url로 대체하였다. (예시로 나의 blog 주소를 넣었음)
 
 ```javascript
-mainWindow.loadFile('index.html');
-mainWindow.loadURL('https://newyumi.github.io/');
+mainWindow.loadFile("index.html");
+mainWindow.loadURL("https://newyumi.github.io/");
 ```
 
 그 후 패키징 툴이 여러개 있는데 electron 문서에서는 3가지를 추천한다.
 
 <br/><br/>
 
-***
+---
 
 <br/><br/>
 
@@ -58,15 +56,14 @@ mainWindow.loadURL('https://newyumi.github.io/');
 
 애플리케이션을 일일이 수동으로 패키지로 만드는 대신, 서드 파티 패키징 툴을 사용하며 이러한 작업을 자동화 시킬 수 있습니다.
 
-* [electron-forge](https://github.com/electron-userland/electron-forge)
-* [electron-builder](https://github.com/electron-userland/electron-builder)
-* [electron-packager](https://github.com/electron-userland/electron-packager)
+- [electron-forge](https://github.com/electron-userland/electron-forge)
+- [electron-builder](https://github.com/electron-userland/electron-builder)
+- [electron-packager](https://github.com/electron-userland/electron-packager)
 
 이 중에서 간단해 보이는 electron-packager를 사용했다.
 
 <br/>
 참고: [https://github.com/electron-userland/electron-packager#building-windows-apps-from-non-windows-platforms](https://github.com/electron-userland/electron-packager#building-windows-apps-from-non-windows-platforms)
-
 
 ```
 # For use in npm scripts (recommended)
@@ -86,30 +83,30 @@ electron-packager <sourcedir> <appname> --platform=<platform> --arch=<arch> [opt
 
 <br/><br/>
 
-***
+---
 
 <br/><br/>
 
-
 # Supported Platforms
+
 ### Electron Packager is known to run on the following host platforms:
 
-* Windows (32/64 bit)
-* OS X (also known as macOS)
-* Linux (x86/x86_64)
+- Windows (32/64 bit)
+- OS X (also known as macOS)
+- Linux (x86/x86_64)
 
 ### It generates executables/bundles for the following target platforms:
 
-* Windows (also known as `win32`, for both 32/64 bit)
-* OS X (also known as `darwin`) 
-/ [Mac App Store](https://electronjs.org/docs/tutorial/mac-app-store-submission-guide) (also known as `mas`)*
-* Linux (for x86, x86_64, armv7l, arm64, and mips64el architectures)
+- Windows (also known as `win32`, for both 32/64 bit)
+- OS X (also known as `darwin`)
+  / [Mac App Store](https://electronjs.org/docs/tutorial/mac-app-store-submission-guide) (also known as `mas`)\*
+- Linux (for x86, x86_64, armv7l, arm64, and mips64el architectures)
 
 _Note for OS X / MAS target bundles: the `.app` bundle can only be signed when building on a host OS X platform._
 
 <br/><br/>
 
-***
+---
 
 <br/><br/>
 
@@ -143,5 +140,6 @@ electron-packager <sourcedir> <appname> --platform=<platform> --arch=<arch> [opt
 
 그리고 나면 실행한 위치에 appname-[platform-x64] 과 같은 폴더가 생기고 그 안에 실행파일이 생성되어있다.
 
-사실 가장 좋은 방법은 프로그램 폴더 안에서 프로그램을 build해서 electron으로 포팅해주면 가장 깔끔할 것 같은데, webpack 파일을 아직 자유자재로 다루지 못해서 이런 방법으로 애플리케이션을 만들게 되었다. 우선은 이렇게 사용해보고 계속해서 스터디를 해 볼 예정이다. 
+사실 가장 좋은 방법은 프로그램 폴더 안에서 프로그램을 build해서 electron으로 포팅해주면 가장 깔끔할 것 같은데, webpack 파일을 아직 자유자재로 다루지 못해서 이런 방법으로 애플리케이션을 만들게 되었다. 우선은 이렇게 사용해보고 계속해서 스터디를 해 볼 예정이다.
 
+<br/><br/>

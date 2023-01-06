@@ -73,7 +73,7 @@ export class GoogleDriveProvider {
 }
 ```
 
-<br><br><br>
+<br>
 
 ### 안드로이드 애뮬레이터, 실제 디바이스에서는 proxy 설정이 안된다. 해봤는데 안됨. 어떤 외국인의 의견 참고.
 
@@ -82,8 +82,6 @@ The proxy is a thing started and run by the CLI. If you use ionic serve or liver
 When you run the app properly on the device, the CLI is not involed - so there is no proxy.
 
 If your app has CORS issues when running on the device, you have to fix those and can’t use the workaround with the proxy. Means, making sure the backend sends the correct headers etc.
-
-<br><br>
 
 ### CORS 에러
 
@@ -97,8 +95,6 @@ getSites(): Observable<any> {
   }
 ```
 
-<br><br>
-
 ### 안드로이드 http
 
 Android Studio를 이용해서 애뮬레이터나 실제 기기에 테스트할 때, 배포할 때,
@@ -109,5 +105,5 @@ app/manifests/AndroidManifest.xml 에서 android:usesCleartextTraffic="true" 이
         <activity android:configChanges=" ...
 ```
 
-<br><br>
 이것저것 시도를 많이 해봤는데, 우선 되서 너무 다행이고. 배고프다. 이제 밥 먹어야지. 안뇽.
+<br/><br/>

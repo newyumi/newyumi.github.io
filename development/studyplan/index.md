@@ -48,8 +48,8 @@ A major difference between SRE and DevOps is the focus on coding and type of env
 https://bcho.tistory.com/1325 역시나 정리가 잘 되어 있다.
 
 <br/><br/>
-한국에서는 유니콘 회사인 당근마켓의 노션을 찾아보곤 한다. 노션으로 회사를 소개하는 것도 취저 👍🏻
-[당근마켓 채용공고](https://www.notion.so/07ca1fda22584d60a48ef43a8cf9bab0)에서 프론트엔드 개발자를 살펴보면 다음과 같다.
+한국에서는 유니콘 회사들의 채용 공고를 찾아보곤 한다. 노션으로 회사를 소개하는 것도 취저 👍🏻
+그 중 최근 투자로 유명한 회사의 프론트엔드 개발자를 살펴보면 다음과 같다.
 
 1. **주요 업무**
    - 모바일 웹뷰 기반의 다양한 사업팀 Product 개발
@@ -72,7 +72,7 @@ https://bcho.tistory.com/1325 역시나 정리가 잘 되어 있다.
    - Node.js 등 서버 개발 경험
    - 오픈소스 Contribution 경험
    - GraphQL에 대한 이해
-4. **당근마켓 기술 스택**
+4. **기술 스택**
    - React, Next.js, MobX, Apollo Client
    - Vue, Vuex
    - TypeScript
@@ -82,7 +82,7 @@ https://bcho.tistory.com/1325 역시나 정리가 잘 되어 있다.
 역시나 상태관리 패턴이 첫번째다. 나의 경우, React 프로젝트에 처음부터 개발에 투입된게 아니라 수정하는 단계부터 합류하게 되면서,
 짜여진 구조에서 상태관리를 접해볼 기회가 있었다. 정답은 모르겠지만, 주어진 코드를 보면서 익히게 되어 리액트에서 상태관리가 왜 필요한지,
 어떻게 사용해야 되는지를 배웠다. 이제 거꾸로 개념을 한 번 짚고 넘어갈 때가 된 것 같다.
-당근마켓에서 GraphQL을 쓰고 있는지 궁금. 처음 React를 찾아볼 때, 공식 홈페이지에서 Toolchains을 추천해주는 문구를 보고, 또 Gatsby로 이것저것 해봤는데,
+이 회사에서는 GraphQL을 쓰고 있는지 궁금. 처음 React를 찾아볼 때, 공식 홈페이지에서 Toolchains을 추천해주는 문구를 보고, 또 Gatsby로 이것저것 해봤는데,
 개츠비는 적극적으로 GraphQL을 사용한다. 프론트엔드 개발자로써 종종 API 개발에 눈 독 들이게 되는데, GraphQL을 사용하면 내가 쿼리를 날릴 수 있겠다 싶어
 매력적인 툴이구나 생각했었다. 이 것도 써봐야겠다.
 
@@ -91,3 +91,5 @@ https://bcho.tistory.com/1325 역시나 정리가 잘 되어 있다.
 언제나 공부해야될 것들은 많지만, 방향을 계속해서 잘 잡아나가는 것도 중요한 것 같다.
 
 Redux, Typescript, ES6, LESS(Sass, Scss), GraphQL, DevOps .. 이 순서로 보고나서 다음 계획 세운다.
+
+<br/><br/>

@@ -186,3 +186,4 @@ prompt_newline() {
 완성된 iTerm
 ![prom2](img/prom2.png)
 즐거운 코딩하세요 👍🏻
+<br/><br/>

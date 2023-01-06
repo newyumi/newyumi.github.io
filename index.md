@@ -12,7 +12,7 @@ description: Yumi Yang, who is a front-end developer. | 컴퍼니위에서 일�
         I'm yumi,
         </h1>
         <h1 class="intro">a front-end developer</h1>
-        <h2 class="intro">개발합니다.</h2>
+        <h2 class="intro">개발합니다. 지금은 PM도 합니다.</h2>
     </section>
 </div>
 {% include resume.html %}

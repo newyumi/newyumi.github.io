@@ -1,11 +1,9 @@
+- name: SW structure
 - name: React
-- name: Gatsby
-- name: Angular
-- name: Hybrid app
+- name: Next.js
+- name: Hybrid mobile app
 - name: ionic
-- name: HTML5/CSS
 - name: SCSS
 - name: UI Animation
-- name: SW structure
 - name: Prototyping
 - name: Node.js®
