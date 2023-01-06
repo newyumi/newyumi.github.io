@@ -1,8 +1,8 @@
 ---
 layout: post
-title: ""
+title: "태도에 관하여"
 subtitle: ""
-type: "태도에 관하여"
+type: "📙📒 Book"
 blog: true
 text: true
 author: "Yumi Yang"
