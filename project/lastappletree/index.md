@@ -31,7 +31,6 @@ order: 5
 6. 가장 고생했던 부분은 사진을 다운받을 때 기기 앨범에 저장하는 부분이었는데, blob을 바로 저장할 수 없어서 파일 변환 후 저장했는데, 간단할 것 같았으나 파일에 대한 이해가 없었기도 했고, ionic이 react-native 보단 사용자가 적어서 예시가 많이 없어서 애를 먹었다. <br/>
    다운 받을 때 파일을 write 할 수 있는 권한을 먼저 체크하고, 파일 path를 base64 형식으로 변환한 다음에 capacitor의 Filesystem을 이용해서 파일을 기기에 쓰고, photo library 권한을 write: true로 지정해 준 다음에 저장해줬다. 만들고 나니 별거 아니었는데 고생했던 것만 기억남.
 
-[Last apple tree 홈페이지](https://www.lastappletree.com/) 에서 다운받으실 수 있습니다 👍
 <br/><br/>
 
 <div class="lat-images" style="display:flex;width:100%;">

@@ -16,8 +16,8 @@ role: "시스템 구조 설계 및 개발"
 target-specific: "IoT status data system, Web programming"
 team: "PM 1명, 엔지니어 5명, 디자이너 1명"
 platforms: "Web"
-date: "June 2021 - Dec 2022"
-order: 6
+date: "June 2022 - 현재 진행중"
+order: 8
 ---
 
 <strong>Things Data Management Platform</strong><br>
@@ -30,8 +30,8 @@ Thing 메시지 형태의 로그를 통해 상시 모니터링 할 수 있는 �
 
 <ol>
 <li> 크게 네트워크 / 어플리케이션 / Thing 으로 구성 - 콜드체인 예시</li>
-<li> BEMS가 설치되어 있는 경우, 주소로 이동 가능</li>
 <li> 센서의 Metric 정보(측정 항목)은 각기 다름. 다른 Metric 정보를 보여주고 제어할 수 있는 부분이 특징임</li>
+<li> 이벤트 콘솔 페이지를 이용해서 각 센서에 설정된 이벤트를 한 눈에 파악하고 조치를 취할 수 있음</li>
 <li> 봇에 다양한 기능을 추가하여 시스템의 기능을 다양화 할 수 있을 것으로 예상됨 </li>
 </ol>
 <br>
