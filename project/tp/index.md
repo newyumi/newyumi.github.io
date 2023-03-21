@@ -16,7 +16,7 @@ role: "시스템 구조 설계 및 개발"
 target-specific: "IoT status data system, Web programming"
 team: "PM 1명, 엔지니어 5명, 디자이너 1명"
 platforms: "Web"
-date: "June 2022 - 현재 진행중"
+date: "June 2022 - 2023 현재 진행중"
 order: 8
 ---
 
