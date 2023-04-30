@@ -12,9 +12,9 @@ post-header: false
 header-img: ""
 main-img: ""
 target-title: "IoT 상태관리 시스템"
-role: "시스템 구조 설계 및 개발"
+role: "시스템 구조 설계 및 Frontend 개발"
 target-specific: "IoT status data system, Web programming"
-team: "PM 1명, 엔지니어 5명, 디자이너 1명"
+team: "PM 1명, Front-end 2명, Back-end 1명, Blockchain 1명, 디자이너 1명"
 platforms: "Web"
 date: "June 2022 - 2023 현재 진행중"
 order: 8
