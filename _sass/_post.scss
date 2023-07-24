@@ -47,7 +47,7 @@
 
   p {
     font-size: 11pt;
-    line-height: 22pt;
+    line-height: 18pt;
     letter-spacing: 0.8px;
     margin: 0 0 10px 0;
     word-break: break-all;
@@ -179,7 +179,6 @@
 
   ol {
     li {
-      padding: 6px 0;
       margin-left: 8px;
     }
   }
@@ -387,7 +386,7 @@ sup {
     margin-top: 16px;
     display: inline-block;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     @media (max-width: $break-small) {
       font-size: 20px;
     }
@@ -396,6 +395,7 @@ sup {
   .info-medium {
     color: $grey-0-80;
     font-size: 16px;
+    font-weight: 400;
   }
 
   .info-small {

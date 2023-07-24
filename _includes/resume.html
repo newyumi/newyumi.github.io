@@ -3,29 +3,16 @@
 		<div class="resume-info">
 			<p class="second-label">
 				<span class="label-emoji">
-					&#x1F5A5;
+					&#x1F440;
 				</span>
-				&nbsp; Hello,
+				&nbsp; 업무 경험
 			</p>
 		</div>
-		<ul class="worklist">
-			<a class="transition" href="https://www.companywe.co.kr" target="_blank">
-				Companywe
-			</a>
-			<div class="underline-mask transition"></div>
-			<div class="underline"></div>
-			플랫폼 개발팀 <br /><br />
-			<text class="highlighter-rouge">에너지 모니터링 시스템</text>을 만드는 컴퍼니위(Companywe)에서 플랫폼 개발팀에서 8년차로 근무 중입니다.
-			최근에는 블록체인 기술과 영어 커뮤니케이션에 관심이 있습니다.
-			<br /><br />
-			I have been working as a front-end developer for 8 years for Companywe, which currently makes energy monitoring
-			systems.
-			Recently I am interested in Block-chain skill and English communication.
+		<ul>
+			{% include project-list.html %}
 		</ul>
 	</section>
-</div>
 
-<div class="loading-animation">
 	<section class="resume">
 		<div class="resume-info">
 			<p class="second-label">
@@ -60,22 +47,6 @@
 			</div>
 		</a>
 	</section>
-</div>
-
-<div class="loading-animation">
-	<section class="resume">
-		<div class="resume-info">
-			<p class="second-label">
-				<span class="label-emoji">
-					&#x1F440;
-				</span>
-				&nbsp; I've worked for
-			</p>
-		</div>
-		<ul>
-			{% include project-list.html %}
-		</ul>
-	</section>
 
 	<section class="skill">
 		<div class="resume-info">
@@ -83,15 +54,41 @@
 				<span class="label-emoji">
 					&#x1F4AA;
 				</span>
-				&nbsp; Available My Skill & Target
+				&nbsp; 전문 분야
 			</p>
 		</div>
 		<ul>
+			{% for skill-target in site.data.skill-knowledge %}
+			<li class="skill_name skill_know">
+				{{ skill-target.name }}
+			</li>
+			{% endfor %}
+			<br />
+
 			{% for skill-target in site.data.skill-targets %}
 			<li class="skill_name">
 				{{ skill-target.name }}
 			</li>
 			{% endfor %}
 		</ul>
+	</section>
+
+	<section class="edu">
+		<div class="resume-info">
+			<p class="second-label">
+				<span class="label-emoji">
+					&#x1f393;
+				</span>
+				&nbsp; 학력
+			</p>
+		</div>
+		<div style="font-size: 16px;font-weight: 500;">서울과학기술대학교</div>
+		<div>SW분석설계학과</div>
+		<div style="font-size: 14px;color: grey;">2013.03 ~ 2015.02</div>
+		<br />
+		<div style="font-size: 16px;font-weight: 500;">서울과학기술대학교</div>
+		<div>컴퓨터공학과</div>
+		<div style="font-size: 14px;color: grey;">2008.03 ~ 2012.06</div>
+
 	</section>
 </div>

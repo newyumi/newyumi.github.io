@@ -30,8 +30,6 @@ TOC는 그 프로젝트 중 대표적인 프로그램이다.
 
 ![toc2](img/toc2.png)
 
-###### Structure of TOC
-
 # Overview
 
 ### Energy Monitoring

@@ -42,6 +42,17 @@ div.resume-info {
     font-weight: 300;
     color: #333;
 
+    .company {
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .time {
+      color: #7a7c84;
+      font-size: 13px;
+      font-weight: 500;
+      margin: 4px 0;
+    }
+
     .workplace-name {
       font-family: $san-serif;
       font-size: 20px;
@@ -104,21 +115,29 @@ section.skill {
     fill: $purple;
     position: absolute;
   }
-  padding-bottom: 72px;
 
   li.skill_name {
     display: inline-block;
     font-family: $source;
-    padding: 4px 14px;
+    padding: 6px 14px;
     border-radius: 100px;
     border: solid 1px $grey-2;
-    font-size: 16px;
-    margin: 0 8px 14px 0;
+    font-size: 14px;
+    margin: 0 8px 10px 0;
     @media (max-width: $break-small) {
       margin: 0 2px 6px 0;
-      padding: 2px 12px;
     }
   }
+  li.skill_know {
+    border: solid 1px #3d6aff;
+    margin: 0 8px 10px 0;
+    background-color: #3d6aff;
+    color: #fff;
+  }
+}
+
+section.edu {
+  padding-bottom: 72px;
 }
 
 @keyframes moving {

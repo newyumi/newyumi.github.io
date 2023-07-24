@@ -1,13 +1,13 @@
 .catalogue {
   &-item {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding: 36px 0;
     list-style: none;
 
     &:last-child {
       margin-bottom: 72px;
       border: none;
-      //        border-bottom: 1px solid $grey-2;
+      // border-bottom: 1px solid $grey-2;
     }
   }
 
@@ -84,7 +84,7 @@
 
 .catalogue-item:hover .catalogue-info {
   cursor: pointer;
-  opacity: 0.6;
+  // opacity: 0.6;
 }
 
 .catalogue-img {
