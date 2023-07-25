@@ -9,13 +9,17 @@
 		<div class="nav-container">
 			<ul>
 				<li class="transition">
-					<a href="{{ '' | prepend: site.baseurl }}/" {% if current[1]=="about" or current[1]=="blog" or
-						current[1]=="book" or current[1]=="project" or current[1]=="development" %} class="normal" {% endif %}
-						class="active">Home</a>
+					<a href="{{ '' | prepend: site.baseurl }}/" {% if current[1]=="home" or current[1]=="blog" or
+						current[1]=="book" or current[1]=="project" or current[1]=="development" or current[1]=="insight" %}
+						class="normal" {% endif %} class="active">Home</a>
 				</li>
 				<li class="transition">
 					<a href="{{ '/project' | prepend: site.baseurl }}" {% if current[1]=="project" %} class="active" {% endif
 						%}>Project</a>
+				</li>
+				<li class="transition">
+					<a href="{{ '/insight' | prepend: site.baseurl }}" {% if current[1]=="insight" %} class="active" {% endif
+						%}>Insight</a>
 				</li>
 				<li class="transition">
 					<a href="{{ '/development' | prepend: site.baseurl }}" {% if current[1]=="development" %} class="active" {%
