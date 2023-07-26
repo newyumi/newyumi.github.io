@@ -10,7 +10,7 @@ header-img: img/insight2.jpg
 <ul class="catalogue">
 {% assign sorted = site.pages | sort: 'order' | reverse %}
 {% for page in sorted %}
-{% if page.Insight == true %}
+{% if page.insight == true %}
 {% include post-list.html %}
 {% endif %}
 {% endfor %}
