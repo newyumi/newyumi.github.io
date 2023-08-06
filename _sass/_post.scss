@@ -184,10 +184,11 @@
   }
 
   ul {
+    margin-bottom: 16px;
     li {
       list-style: none;
-      padding: 6px 0;
-      margin-left: 20px;
+      // padding: 6px 0;
+      // margin-left: 20px;
       line-height: 1.65;
       position: relative;
       font-size: 11pt;
@@ -198,14 +199,15 @@
     }
 
     li:before {
-      content: "";
-      position: absolute;
-      width: 8px;
-      height: 8px;
-      background-color: $grey-5;
-      border-radius: 50%;
-      left: -22px;
-      top: 16px;
+      content: "-";
+      margin-right: 6px;
+      // position: absolute;
+      // width: 8px;
+      // height: 8px;
+      // background-color: $grey-5;
+      // border-radius: 50%;
+      // left: -22px;
+      // top: 16px;
 
       @media (max-width: $break-small) {
         top: 14px;
