@@ -302,10 +302,10 @@ sup {
 }
 
 .post-info > h3.post-date {
-  padding: 0 0 60px 0;
+  padding: 0 0 20px 0;
   font-size: 16px;
   line-height: 1.5;
-
+  font-weight: 500;
   @media (max-width: $break-small) {
     font-size: 16px;
     padding: 0 0 10px 0;
@@ -374,10 +374,10 @@ sup {
 
 // portfolio
 .portfolio-info {
-  margin-bottom: 16px;
+  margin-bottom: 32px;
   width: 100%;
   border: 1px solid #d8e0e7;
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 0 24px 20px 24px;
 
   p {

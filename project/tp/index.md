@@ -10,9 +10,9 @@ text: true
 portfolio: true
 post-header: false
 header-img: ""
-main-img: ""
+main-img: "tp/img/1.png"
 target-title: "IoT 상태관리 시스템"
-role: "시스템 구조 설계 및 Frontend 개발"
+role: "시스템 Structure 설계 및 Frontend 개발"
 target-specific: "IoT status data system, Web programming"
 team: "PM 1, 기술 PM 1, 서비스 기획 1, <br/> Blockchain 2(자문위원 1), Front-end 2, Back-end 1, 디자이너 1"
 platforms: "Web"

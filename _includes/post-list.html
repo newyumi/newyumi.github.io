@@ -1,8 +1,5 @@
 <li class="catalogue-item">
 	<a href="{{ page.url | prepend: site.baseurl }}">
-		{% if page.portfolio == true %}
-		<img src="{{ page.main-img }}" class="catalogue-img" />
-		{% endif %}
 		{% if page.draft == true %}
 		<span class="catalogue-tag">
 			Coming Soon
@@ -18,6 +15,9 @@
 			<p class="catalogue-sub">
 				<span style="color:#333e4c;margin-right: 4px;">{{ page.date }}</span> {{ page.subtitle }}
 			</p>
+			{% if page.portfolio == true %}
+			<img src="{{ page.main-img }}" class="catalogue-img" />
+			{% endif %}
 			<p class="catalogue-body">
 				{{ page.content | truncatewords: 24 | strip_html }}
 			</p>
