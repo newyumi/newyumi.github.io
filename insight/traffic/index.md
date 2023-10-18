@@ -59,7 +59,7 @@ GCDN(Global CDN)은 전 세계 거점에 위치한 캐시 서버를 이용하는
 참조<br/>
 [(스프링 대용량 트래픽 처리)](https://www.nextree.io/seupeuring-daeyongryang-teuraepig-ceori/)<br/>
 [(네이버 메인 페이지의 트래픽 처리)](https://d2.naver.com/helloworld/6070967)<br/>
-[(대규모 트래픽 처리)](https://velog.io/@yaaloo/대규모-트래픽-처리)
-[(Global CDN 가이드)](https://guide-gov.ncloud-docs.com/docs/networking-networking-7-1)
-[(CDN이란 무엇인가요?)](https://aws.amazon.com/ko/what-is/cdn/)
-[(마이크로서비스가 기업에 제공하는 유용성)](https://www.ibm.com/kr-ko/topics/microservices)
+[(대규모 트래픽 처리)](https://velog.io/@yaaloo/대규모-트래픽-처리)<br/>
+[(Global CDN 가이드)](https://guide-gov.ncloud-docs.com/docs/networking-networking-7-1)<br/>
+[(CDN이란 무엇인가요?)](https://aws.amazon.com/ko/what-is/cdn/)<br/>
+[(마이크로서비스가 기업에 제공하는 유용성)](https://www.ibm.com/kr-ko/topics/microservices)<br/>
