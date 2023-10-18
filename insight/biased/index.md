@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "확증 편향"
-subtitle: "주의해야 할 편향적 의사결정"
+title: "주의해야 할 편향적 의사결정"
+subtitle: "확증 편향"
 type: ""
 insight: true
 text: true
