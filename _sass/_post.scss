@@ -387,16 +387,16 @@ sup {
   .info-title {
     margin-top: 16px;
     display: inline-block;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     @media (max-width: $break-small) {
-      font-size: 20px;
+      font-size: 16px;
     }
   }
 
   .info-medium {
     color: $grey-0-80;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
   }
 
@@ -404,6 +404,7 @@ sup {
     font-size: 14px;
     letter-spacing: 0.4px;
     color: $grey-1;
+    line-height: 1;
   }
 }
 

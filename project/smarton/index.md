@@ -11,9 +11,9 @@ post-header: false
 header-img: ""
 main-img: "smarton/img/main.png"
 target-title: "주차공유 서비스"
-role: "기술 PM"
+role: "TPM"
 target-specific: "주차설비, 관제시스템, 웹/앱 개발"
-team: "사업관리 PM 1명, 기술 PM 1명, 엔지니어 3명 외 외주개발 다수, 외주 디자인"
+team: "사업관리 PM 1명, TPM 1명, 엔지니어 3명 외 외주개발 다수, 외주 디자인"
 platforms: "Web/App"
 date: "Feb 2022 - Jan 2023"
 order: 7
