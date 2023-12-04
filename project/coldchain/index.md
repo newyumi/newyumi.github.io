@@ -3,7 +3,7 @@ layout: post
 author: "Yumi Yang"
 title: "콜드체인 상태정보 관리 및 실시간 모니터링 체계 구축 기술 개발"
 subtitle: "블록체인"
-type: "TPM으로 참여"
+type: "기술 PM으로 참여"
 projects: true
 text: true
 portfolio: true
@@ -11,8 +11,8 @@ post-header: false
 header-img: "img/main.png"
 main-img: "coldchain/img/tela.png"
 target-title: "TCL(Temperature Controlled Logistics) 전용 블록체인 데이터 플랫폼 기반 기술 개발"
-role: "TPM"
-team: "PM 1명, TPM 1명, 개발자 5명"
+role: "기술 PM"
+team: "PM 1명, 기술 PM 1명, 개발자 5명"
 platforms: "블록체인, 모바일 어플리케이션"
 date: "Jan 2021 - Dec 2022"
 order: 6
