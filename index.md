@@ -20,7 +20,6 @@ description: Yumi Yang, who is a front-end developer. | 컴퍼니위에서 일�
             Front-end 개발자이자 Technical Program Manager 양유미 입니다.<br/>
             새로운 일에 도전하여 많은 경험을 하는 것을 좋아하고,<br/>
             서비스의 목표가 명확하며 즐거운 서비스를 제공하는 것을 일의 보람으로 여기고 있습니다.<br/>
-            2014년부터 <text class="highlighter-rouge">프론트엔드 개발자</text>로 시작했고, 현재는 <text class="highlighter-rouge">PM</text>으로 일하고 있습니다.<br/>
     		최근에는 인공지능 기술과 영어 커뮤니케이션에 관심이 많습니다.
     		<br/><br/>
             <div>
@@ -28,7 +27,6 @@ description: Yumi Yang, who is a front-end developer. | 컴퍼니위에서 일�
             I am Yang Yumi, a front-end developer and Technical Program Manager.<br/>
             I enjoy taking on new challenges and gaining diverse experiences.<br/>
             I find fulfillment in working towards clear goals and providing enjoyable services.<br/>
-            I started my career as a front-end developer in 2014 and am currently working as a PM.<br/>
             Recently, I have developed a keen interest in artificial intelligence technology and English communication.
             </div>
         </div>
