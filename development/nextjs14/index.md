@@ -52,7 +52,7 @@ Dynamic routes 방법을 사용하면 되는데, [slug]로 폴더 이름을 작�
 @슬롯: 슬롯은 라우트 세그먼트가 아니며, URL 구조에 영향을 주지 않는다. 내부적으로 그룹화명 (그룹이름)은 내부에서만 사용하고 외부에서는 드러나지 않는다. 파일 경로 /@team/members는 /members에서 접근할 수 있지만!
 
 <span style="color: orange">
-Soft Navigation으로만 이동 가능, Hard Navigation(주소로 접근)으로 이동시 404 에러 페이지가 뜸. 전체 페이지 재렌더링이 필요한 Hard Navigation에서 Next.js는 먼저 일치하지 않는 슬롯의 default.js 파일을 렌더링하려고 시도하고, 사용할 수 없는 경우 404를 렌더링함
+Soft Navigation으로만 이동 가능하다. Hard Navigation(주소로 접근)으로 이동시 404 에러 페이지가 뜬다. 전체 페이지 재렌더링이 필요한 Hard Navigation에서 Next.js는 먼저 일치하지 않는 슬롯의 default.js 파일을 렌더링하려고 시도하고, 사용할 수 없는 경우 404를 렌더링한다.
 </span>
 
 <br/>
