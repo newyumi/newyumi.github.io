@@ -4,24 +4,15 @@
 
 	<title>Newyumi | {{ page.title }}</title>
 
-	<!-- Post info -->
 	<meta property="og:site_name" content="{{ site.title }}">
-
 	<meta property="fb:app_id" content="1607605225977118" />
 	<meta property="og:type" content="article portfolio" />
 	<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-
 	<meta property="og:image"
 		content="{% if page.post-header == true or page.project-header == true %}{{ site.url }}{{ page.url }}{{ page.header-img }}{% else %}{{ site.url }}{{ '/img/mac-img.jpg'}}{% endif %}">
-	<meta name="twitter:card" content="summary_large_image">
-
-	<!-- title -->
 	<meta property="og:title" content="{% if page.url == '/' %}{{ page.subtitle}}{% else %}{{ page.title }}{% endif %}">
-	<meta name="twitter:title" content="{% if page.url == '/' %}{{ page.subtitle}}{% else %}{{ page.title }}{% endif %}">
-
-	<!-- description -->
-	<meta property="og:description" content="yumi portfolio and blog | 양유미 개발 프로젝트 소개 및 블로그 | 토론토 살기 | 리액트" />
-	<meta name="twitter:description"
+	<meta property="og:keywords" content="yumi portfolio and blog | 양유미 개발 프로젝트 소개 + 블로그 | 토론토 살기 | 리액트" />
+	<meta name="og:description"
 		content="{% if page.main == true %}{{ page.description }}{% else %}{{ page.content | truncatewords: 30 | strip_html }}{% endif %}">
 
 	<!-- CSS -->

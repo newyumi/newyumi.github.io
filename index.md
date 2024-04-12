@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 main: true
 subtitle: front-end developer Yumi Yang for Companywe
-description: Yumi Yang, who is a front-end developer. | 컴퍼니위에서 일합니다.
+description: Yumi Yang, who is a front-end developer. | 프론트엔드 개발자입니다.
 ---
 
 <div class="intro-animation">
