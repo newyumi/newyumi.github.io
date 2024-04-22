@@ -223,7 +223,7 @@ useEffect(() => {
           />
         ))}
       </div>
-      <div style={{ height: 0, width: 0, visibility: "hidden" }}>
+      <div style={% raw %}{{ height: 0, width: 0, visibility: "hidden" }}{% endraw %}>
         {JSON.stringify(files)}
       </div>
     </>
@@ -265,7 +265,7 @@ useEffect(() => {
         type="file"
         ref={hiddenFileInput}
         onChange={onFileChange}
-        style={{ display: "none" }}
+        style={% raw %}{{ display: "none" }}{% endraw %}
       />
       <Icons
         id="attach"
