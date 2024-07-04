@@ -2,7 +2,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Newyumi | {{ page.title }}</title>
+	<meta name="description" content="양유미 개발 프로젝트 소개 및 인사이트 블로그">
+	<meta name="keywords" content="포트폴리오, 개발자, 프론트엔드, 프로젝트, TPM, Technical program manager, Project manager">
+	<meta name="author" content="양유미, newyumi">
 
 	<meta property="og:site_name" content="{{ site.title }}">
 	<meta property="fb:app_id" content="1607605225977118" />
@@ -14,6 +16,8 @@
 	<meta property="og:keywords" content="yumi portfolio and blog | 양유미 개발 프로젝트 소개 + 블로그 | 토론토 살기 | 리액트" />
 	<meta name="og:description"
 		content="{% if page.main == true %}{{ page.description }}{% else %}{{ page.content | truncatewords: 30 | strip_html }}{% endif %}">
+
+	<title>Newyumi | {{ page.title }}</title>
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
