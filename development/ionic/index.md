@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "ionic을 이용한 하이브리드 앱 개발 삽질의 후기"
+title: "ionic 하이브리드 앱에 구글시트 데이터 가져올 때의 주의할 점"
 subtitle: "#mobile application #ionic #cordova #angular #cross mobile #coding"
-type: "Google spreadsheet data, oauth2, CORS"
+# type: "Google spreadsheet data, oauth2, CORS"
 development: true
 text: true
 author: "Yumi Yang"
@@ -13,7 +13,8 @@ date: 2020-03-31
 comments: true
 ---
 
-급하게 앱 하나를 개발하면서 몇 일 동안 삽질을 했던 후기를 쓴다.
+급하게 앱 하나를 개발하면서 몇 일 동안 붙잡고 있었던 부분을 해결해서 기록으로 남겨둔다.
+해당 앱은 구글시트 데이터를 불러와서 차트로 보여주는 간단한 내용이다.
 
 ### oauth2
 
@@ -23,7 +24,7 @@ comments: true
   다른 문서에 `url = https://spreadsheets.google.com/feeds/list/' + id + '/od6/public/values?alt=json` id와 public 사이에 od6 으로 되어 있었는데, od6은 첫번째 시트만을 의미하는건지 아닌지 아무튼 안된다. `Invalid query parameter value for grid_id`라는 에러가 난다.
   찾아보니 이 부분을 ${id}/1/public 으로 바꾸니 에러 없이 실행됐는데, 여기서 1이 grid_id를 의미한다. 
 결론적으로 `url = https://spreadsheets.google.com/feeds/list/${id}/1/public/values?alt=json` 으로 사용하면 된다.
-- 코드는 본의 아니게 Angular
+- 코드는 Angular
 
 ```javascript
 import {Injectable} from '@angular/core';
@@ -75,7 +76,7 @@ export class GoogleDriveProvider {
 
 <br>
 
-### 안드로이드 애뮬레이터, 실제 디바이스에서는 proxy 설정이 안된다. 해봤는데 안됨. 어떤 외국인의 의견 참고.
+### 안드로이드 애뮬레이터, 실제 디바이스에서는 proxy 설정이 안된다. 해봤는데 안됨. stackoverflow 참고.
 
 The proxy is a thing started and run by the CLI. If you use ionic serve or livereload, the CLI is running in the background doing things - and the proxy. The app uses the IP and port of the proxy for these requests.
 
@@ -105,5 +106,4 @@ app/manifests/AndroidManifest.xml 에서 android:usesCleartextTraffic="true" 이
         <activity android:configChanges=" ...
 ```
 
-이것저것 시도를 많이 해봤는데, 우선 되서 너무 다행이고. 배고프다. 이제 밥 먹어야지. 안뇽.
 <br/><br/>

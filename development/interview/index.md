@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "FE skill interview Q&A"
+title: "FE 기술면접 Q&A 페이지 vercel을 이용해서 배포하기"
 subtitle: "#front-end"
-type: "Job interview"
+# type: "프론트엔드 웹 어플리케이션 배포 관리 플랫폼 Vercel"
 development: true
 text: true
 author: "Yumi Yang"

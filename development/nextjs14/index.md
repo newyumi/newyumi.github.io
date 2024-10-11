@@ -13,7 +13,7 @@ date: 2024-03-30
 comments: true
 ---
 
-[Routes 예시](https://next-app-directory-chi.vercel.app/) <br/>
+<!-- [Routes 예시](https://next-app-directory-chi.vercel.app/) <br/> -->
 [공식문서 - 설명이 엄청 잘되어있다](https://nextjs.org/docs/app/building-your-application/routing/defining-routes)
 
 <br/>

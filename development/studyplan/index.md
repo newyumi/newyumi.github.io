@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Front-end study plan"
+title: "2020년도 Front-end 개발 방향에 대해"
 subtitle: "#font-end"
-type: "Have to study"
+# type: "Have to study"
 development: true
 text: true
 author: "Yumi Yang"
@@ -44,7 +44,7 @@ Site Reliability Engineering (SRE) is a discipline that incorporates aspects of 
 관련 질문으로 What is the difference between SRE and DevOps? 가 있었는데,
 A major difference between SRE and DevOps is the focus on coding and type of environment you are in. ... DevOps share common ground with SRE as a DevOps engineer is the top of the pyramid, architecting both a culture and a system to automate the delivery of infrastructure or tasks within the development process. 라고 하네.
 
-더 찾아보니, 또 조대협의 블로그가 나왔다. ㅋㅋㅋ 검색하다보면, 자주 나오는 분들이 있다. 감사한 분들. 나중에 만나면 밥 한 번, 커피 한 잔 쏘고싶네.
+더 찾아보니, 또 조대협의 블로그가 나왔다. ㅋㅋㅋ 검색하다보면, 자주 나오는 분들이 있다. 감사한 분들.
 https://bcho.tistory.com/1325 역시나 정리가 잘 되어 있다.
 
 <br/><br/>
@@ -90,7 +90,5 @@ https://bcho.tistory.com/1325 역시나 정리가 잘 되어 있다.
 <br/><br/>
 보다 보면, 역시 대세는 리액트 인가. 할 정도로 리액트를 사용하는 회사가 많았다. 앵귤러1 이후에 뷰와 리액트에서 고민하다가 리액트로 프로젝트들을 개발하기 시작했는데, 잘 한 선택이구나 싶다. 당분간은 계속해서 리액트의 시대가 아닐까. 뭐 대체적으로 많이 다르지 않기도 하지만, 발을 담가보는건 또 다른일이니.
 언제나 공부해야될 것들은 많지만, 방향을 계속해서 잘 잡아나가는 것도 중요한 것 같다.
-
-Redux, Typescript, ES6, LESS(Sass, Scss), GraphQL, DevOps .. 이 순서로 보고나서 다음 계획 세운다.
 
 <br/><br/>

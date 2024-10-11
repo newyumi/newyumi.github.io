@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "quill 사용법"
+title: "리액트에서 quill 사용법과 예시 코드"
 subtitle: "#rich editor #react editor #not react-quill"
 type: "Rich editor"
 development: true
