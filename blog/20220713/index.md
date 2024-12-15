@@ -2,7 +2,7 @@
 layout: post
 title: "태도에 관하여"
 subtitle: ""
-type: "📙📒 Book"
+type: "📒 Book"
 blog: true
 text: true
 author: "Yumi Yang"

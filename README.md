@@ -9,7 +9,7 @@ It's forked from (chesterhow/tale)[https://github.com/chesterhow/tale].
 https://jekyllrb-ko.github.io/
 
 # current version 
-jekyll 4.2.1
+jekyll 4.3.3
 
 ```
 gem install jekyll bundler
