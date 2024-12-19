@@ -9,7 +9,7 @@ text: true
 portfolio: true
 post-header: false
 header-img: "images/summary.jpg"
-main-img: "activepv/images/summary.jpg"
+main-img: "2020-03-activepv/images/summary.jpg"
 target-title: "Solaredge API를 사용하여 실시간 태양광 사용량을 모니터링하는 하이브리드 어플리케이션 개발"
 target-specific: "Energy monitoring system, Hybrid application development, ionic"
 role: "화면 기획 및 개발"

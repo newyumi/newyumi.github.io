@@ -9,7 +9,7 @@ text: true
 portfolio: true
 post-header: false
 header-img: "images/main.png"
-main-img: "lastappletree/images/chat-05.png"
+main-img: "2021-12-lastappletree/images/chat-05.png"
 target-title: "업무 협업을 위한 하이브리드 모바일 어플리케이션 개발"
 role: "프로덕트 매니저 및 개발"
 team: "PM 1명, 엔지니어 3명, 디자이너 2명"
