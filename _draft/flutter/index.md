@@ -7,7 +7,7 @@ development: true
 text: true
 author: "Yumi Yang"
 post-header: false
-header-img: "flutter/img/header.jpg"
+header-img: "flutter/images/header.jpg"
 order: 4
 date: 2019-07-16
 comments: true
@@ -18,7 +18,7 @@ I start to study 'flutter' and find [the great site](https://www.udacity.com/) w
 `Every content is included in the udacity site.`
 <br/><br/>
 
-![flutter](img/flutter.png)
+![flutter](images/flutter.png)
 <br/><br/>
 
 ### 🧐 Why Flutter?
@@ -36,7 +36,7 @@ It supports both just-in-time and ahead-of-time compilation.
 ### Widget
 Widgets are the foundatiton of Flutter apps. A widget is a description of part of a user interface. Nearly everything is a `widget` such as textbox, list, button, etc.
 
-![flutter lifecycle](img/lifecycle.png)
+![flutter lifecycle](images/lifecycle.png)
 
 When a widget state changes, such as due to user input or animations, the widget rebuilds itself according to the new state. This saves developers' time because the UI can be described as functions of state. We don't have to write extra code for solely updatting the UI when state chages. 
 <br/><br/>
