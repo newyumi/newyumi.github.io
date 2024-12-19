@@ -4,7 +4,7 @@ title: "Insight"
 description: PM 플레이북
 main: true
 project-header: true
-header-img: img/insight2.jpg
+header-img: images/insight2.jpg
 ---
 
 <ul class="catalogue">

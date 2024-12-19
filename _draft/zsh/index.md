@@ -7,7 +7,7 @@ development: true
 text: true
 author: "Yumi Yang"
 post-header: false
-header-img: "flutter/img/header.jpg"
+header-img: "flutter/images/header.jpg"
 order: 5
 date: 2019-07-19
 comments: true
@@ -184,6 +184,6 @@ prompt_newline() {
 
 <br/><br/>
 완성된 iTerm
-![prom2](img/prom2.png)
+![prom2](images/prom2.png)
 즐거운 코딩하세요 👍🏻
 <br/><br/>
