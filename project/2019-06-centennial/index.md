@@ -9,7 +9,7 @@ text: true
 portfolio: true
 post-header: false
 header-img: "images/centennial1.png"
-main-img: "centennial/images/centennial1.png"
+main-img: "2019-06-centennial/images/centennial1.png"
 target-title: "캐나다 온타리오주 센테니얼 대학의 태양광-충전기 시스템 모니터링을 위한 웹 프로그램 개발"
 target-specific: "Energy monitoring system, Web programming, realtime"
 role: "화면 기획 및 개발"

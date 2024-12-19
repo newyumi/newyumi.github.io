@@ -9,7 +9,7 @@ text: true
 portfolio: true
 post-header: false
 header-img: "images/toc-main.png"
-main-img: "toc/images/toc1.png"
+main-img: "2018-12-toc/images/toc1.png"
 target-title: "에너지 시스템 모니터링을 위한 웹 프로그램 개발"
 role: "프론트엔드 개발"
 target-specific: "Energy monitoring system, Web programming"

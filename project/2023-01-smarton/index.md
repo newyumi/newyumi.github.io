@@ -9,7 +9,7 @@ text: true
 portfolio: true
 post-header: false
 header-img: ""
-main-img: "smarton/images/main.png"
+main-img: "2023-01-smarton/images/main.png"
 target-title: "주차공유 서비스"
 role: "기술 PM"
 target-specific: "주차설비, 관제시스템, 웹/앱 개발"

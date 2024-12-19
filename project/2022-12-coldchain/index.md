@@ -9,7 +9,7 @@ text: true
 portfolio: true
 post-header: false
 header-img: "images/main.png"
-main-img: "coldchain/images/tela.png"
+main-img: "2022-12-coldchain/images/tela.png"
 target-title: "TCL(Temperature Controlled Logistics) 전용 블록체인 데이터 플랫폼 기반 기술 개발"
 role: "기술 PM"
 team: "PM 1명, 기술 PM 1명, 개발자 5명"
