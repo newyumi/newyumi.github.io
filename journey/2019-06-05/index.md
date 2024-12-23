@@ -3,7 +3,7 @@ layout: post
 title: "2019년 6월에 다녀온 뉴욕 여행"
 subtitle: "#travel #Newyork #Atlanta #thought #2019 #뉴욕여행 "
 type: "✈️ Travel"
-blog: true
+journey: true
 text: true
 author: "Yumi Yang"
 post-header: true

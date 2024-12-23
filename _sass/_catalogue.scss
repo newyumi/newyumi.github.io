@@ -7,12 +7,11 @@
     &:last-child {
       margin-bottom: 72px;
       border: none;
-      // border-bottom: 1px solid $grey-2;
     }
   }
 
   &-type {
-    color: $purple;
+    color: $orange;
     font-size: 18px;
     font-family: $source;
     font-weight: 500;
@@ -84,7 +83,6 @@
 
 .catalogue-item:hover .catalogue-info {
   cursor: pointer;
-  // opacity: 0.6;
 }
 
 .catalogue-img {

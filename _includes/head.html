@@ -13,7 +13,7 @@
 	<meta property="og:image"
 		content="{% if page.post-header == true or page.project-header == true %}{{ site.url }}{{ page.url }}{{ page.header-img }}{% else %}{{ site.url }}{{ '/images/mac-img.jpg'}}{% endif %}">
 	<meta property="og:title" content="{% if page.url == '/' %}{{ page.subtitle}}{% else %}{{ page.title }}{% endif %}">
-	<meta property="og:keywords" content="yumi portfolio and blog | 양유미 개발 프로젝트 소개 + 블로그 | 토론토 살기 | 리액트" />
+	<meta property="og:keywords" content="yumi portfolio and journey | 양유미 개발 프로젝트 소개 + 블로그 | 토론토 살기 | 리액트" />
 	<meta name="og:description"
 		content="{% if page.main == true %}{{ page.description }}{% else %}{{ page.content | truncatewords: 30 | strip_html }}{% endif %}">
 

@@ -3,7 +3,7 @@ layout: post
 title: "토론토에서 집 구하기 2"
 subtitle: "#콘도계약 #캐나다에서 체크 신청하고 받기 #엘레베이터 부킹 미리 하기"
 type: "🏡 Home sweet home"
-blog: true
+journey: true
 text: true
 author: "Yumi Yang"
 post-header: false
