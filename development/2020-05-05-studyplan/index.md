@@ -7,7 +7,7 @@ development: true
 text: true
 author: "Yumi Yang"
 post-header: false
-header-img: "async/images/header.jpg"
+header-img: ""
 order: 7
 date: 2020-05-05
 comments: true

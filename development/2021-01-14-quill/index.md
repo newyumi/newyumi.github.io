@@ -7,7 +7,7 @@ development: true
 text: true
 author: "Yumi Yang"
 post-header: false
-header-img: "quill/images/header.jpg"
+header-img: ""
 order: 8
 date: 2021-01-14
 comments: true

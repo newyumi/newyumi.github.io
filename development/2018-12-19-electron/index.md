@@ -7,7 +7,7 @@ development: true
 text: true
 author: "Yumi Yang"
 post-header: false
-header-img: "electron/images/header.jpg"
+header-img: ""
 order: 1
 date: 2018-12-19
 comments: true

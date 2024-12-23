@@ -7,7 +7,7 @@ type: ""
 text: true
 author: "Yumi Yang"
 post-header: false
-header-img: "lib1.jpeg"
+header-img: ""
 order: 6
 date: 2024-02-10
 comments: true
