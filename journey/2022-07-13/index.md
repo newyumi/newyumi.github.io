@@ -3,11 +3,11 @@ layout: post
 title: "태도에 관하여"
 subtitle: ""
 type: "📒 Book"
-blog: true
+journey: true
 text: true
 author: "Yumi Yang"
 post-header: true
-header-img: "lib1.jpeg"
+header-img: "images/lib1.jpeg"
 order: 8
 date: 2022-07-13
 comments: true

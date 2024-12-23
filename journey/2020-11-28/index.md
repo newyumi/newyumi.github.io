@@ -3,7 +3,7 @@ layout: post
 title: "캐나다의 병원 시스템 - 워크인과 응급실 하루에 체험한 후기"
 subtitle: "#캐나다병원#오힙(OHIP)#워크인#응급실#어지럼증#전정신경염#이석증"
 type: "🏥 What is the walk in clinic?"
-blog: true
+journey: true
 text: true
 author: "Yumi Yang"
 post-header: false
@@ -92,7 +92,7 @@ comments: true
 <br/>
 
 이번에 아프고 나서 완전 감사쟁이됐다.
-원래 요새 코로나로 어디 가지도 못하고 일만 하고 우울하다고 난리쳤는데,
+원래 요새 코로나로 어디 가지도 못하고 일만 하고 지루하기도 했는데,
 안아프면 감사한거다.
 길고 긴 후기 끝
 

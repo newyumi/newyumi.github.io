@@ -76,7 +76,6 @@ section.explanation {
         content: '';
         background-color: $ridi-blue;
         transform: scaleX(0);
-//        transform-origin: 0% 0%;
         transition: transform 300ms ease-in-out;
         @media (max-width: $break-small) {
             transform: none;
@@ -86,7 +85,6 @@ section.explanation {
     .intro-link:hover
     .underline-mask {
         transform: scaleX(1);
-//        transform-origin: 0% 0%;
         @media (max-width: $break-small) {
             transform: none;
         }

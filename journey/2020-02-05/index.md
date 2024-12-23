@@ -3,7 +3,7 @@ layout: post
 title: "토론토에서 집 구하기"
 subtitle: "#Tornoto #housing #rent #condo #토론토 #이사 #콘도구하기 #기록"
 type: "🏡 Home sweet home"
-blog: true
+journey: true
 text: true
 author: "Yumi Yang"
 post-header: true
