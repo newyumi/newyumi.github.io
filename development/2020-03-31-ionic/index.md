@@ -7,7 +7,7 @@ development: true
 text: true
 author: "Yumi Yang"
 post-header: false
-header-img: "ionic/images/header.jpg"
+header-img: ""
 order: 6
 date: 2020-03-31
 comments: true

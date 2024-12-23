@@ -7,6 +7,7 @@ journey: true
 text: true
 author: "Yumi Yang"
 post-header: false
+header-img: ""
 order: 5
 date: 2020-10-09
 comments: true

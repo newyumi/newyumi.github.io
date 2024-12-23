@@ -7,7 +7,7 @@ insight: true
 text: true
 author: "Yumi Yang"
 post-header: false
-header-img: "lib1.jpeg"
+header-img: ""
 order: 3
 date: 2023-08-06
 comments: true
