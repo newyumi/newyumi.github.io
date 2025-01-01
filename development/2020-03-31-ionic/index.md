@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "ionic 하이브리드 앱에 구글시트 데이터 가져올 때의 주의할 점"
-subtitle: "#mobile application #ionic #cordova #angular #cross mobile #coding"
-# type: "Google spreadsheet data, oauth2, CORS"
+subtitle: "#ionic #cordova"
+type: "Mobile application"
 development: true
 text: true
 author: "Yumi Yang"

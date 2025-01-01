@@ -2,7 +2,7 @@
 layout: post
 title: "캐나다의 병원 시스템 - 워크인과 응급실 하루에 체험한 후기"
 subtitle: "#캐나다병원#오힙(OHIP)#워크인#응급실#어지럼증#전정신경염#이석증"
-type: "🏥 What is the walk in clinic?"
+type: "🏥 Walk in clinic"
 journey: true
 text: true
 author: "Yumi Yang"

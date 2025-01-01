@@ -2,7 +2,7 @@
 layout: post
 title: "추억의 장소들"
 subtitle: "#Distillery district#토론토#가볼만한곳"
-type: "🎄 Winter village"
+# type: "🎄 Winter village"
 journey: true
 text: true
 author: "Yumi Yang"
