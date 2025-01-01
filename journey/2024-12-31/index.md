@@ -3,7 +3,7 @@ layout: post
 title: "24년 회고"
 subtitle: "9년만의 이직"
 type: ""
-journey: true
+# journey: true
 text: true
 author: "Yumi Yang"
 post-header: false
