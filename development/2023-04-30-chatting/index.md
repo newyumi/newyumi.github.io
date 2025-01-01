@@ -2,7 +2,7 @@
 layout: post
 title: "React로 채팅 로직 구현"
 subtitle: "#채팅 #React #messaging #socket"
-type: "개발 로직"
+# type: "개발 로직"
 development: true
 text: true
 author: "Yumi Yang"

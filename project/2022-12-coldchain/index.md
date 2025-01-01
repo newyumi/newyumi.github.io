@@ -2,8 +2,8 @@
 layout: post
 author: "Yumi Yang"
 title: "콜드체인 상태정보 관리 및 실시간 모니터링 체계 구축 기술 개발"
-subtitle: "블록체인"
-type: "기술 PM으로 참여"
+# subtitle: "기술 PM"
+type: "Blockchain"
 projects: true
 text: true
 portfolio: true

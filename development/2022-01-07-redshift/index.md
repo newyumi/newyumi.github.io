@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Redshift를 사용하지 않기로 결정한 이유"
-subtitle: "#레드시프트"
-# type: "개발 후기"
+subtitle: "#AWS"
+type: "Database"
 development: true
 text: true
 author: "Yumi Yang"

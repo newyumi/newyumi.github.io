@@ -3,7 +3,7 @@ layout: post
 author: "Yumi Yang"
 title: "Centennial project"
 subtitle: "Centennial College Solar-Charger System"
-type: "Energy Monitoring"
+type: "Energy monitoring"
 projects: true
 text: true
 portfolio: true

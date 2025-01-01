@@ -3,7 +3,7 @@ layout: post
 author: "Yumi Yang"
 title: "Active PV hybrid app"
 subtitle: "태양광 모니터링을 위한 하이브리드 앱 개발"
-type: "Energy Monitoring"
+type: "Energy monitoring"
 projects: true
 text: true
 portfolio: true

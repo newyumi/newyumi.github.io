@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "리액트에서 quill 사용법과 예시 코드"
-subtitle: "#rich editor #react editor #not react-quill"
-type: "Rich editor"
+subtitle: "#rich-editor"
+type: "Frontend"
 development: true
 text: true
 author: "Yumi Yang"

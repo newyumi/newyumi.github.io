@@ -3,7 +3,7 @@ layout: post
 author: "Yumi Yang"
 title: "TOC project"
 subtitle: "Top Operation Control System"
-type: "Energy Monitoring"
+type: "Energy monitoring"
 projects: true
 text: true
 portfolio: true
