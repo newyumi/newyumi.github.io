@@ -74,10 +74,17 @@ OpenAI가 'o1' 모델에 'GPT'라는 명칭을 사용하지 않은 이유는, �
 
 구글 Gemini 2.0 [오픈AI 'o1' 대항마 떴다…구글, 추론 전용 AI 모델 공개](https://www.aipostkorea.com/news/articleView.html?idxno=5364&fbclid=IwY2xjawHU-_5leHRuA2FlbQIxMQABHR-uzrXc6GDZcApkGBbaEkaVqtgpjEBC3IczneFA51s_rBmgHlhfHUD2oA_aem_pxOo3mXsV6wrHafeSCZceQ)
 
+제미나이 쓰는 분들도 많던데, 경쟁적으로 개발되고 쓸 수 있는 생성형 AI가 많으니 소비자로써는 좋다.
+추론형이 확실히 답변이 좋아서 돌아가면서 사용중인데 개인적으로는 o1이 가장 만족도가 높음.
 
-### RAG
+
+### RAG (Retrieval-Augmented Generation)
 
 [검색 증강 생성(RAG)이란 무엇인가요?](https://aws.amazon.com/ko/what-is/retrieval-augmented-generation/)
+
+지금 LLM이 어디에나 있고 매일같이 학습자료를 삼키고 있지만, 특정한 날짜를 기준으로 학습한 것을 끊어서 서비스를 내놓게 되는데 그러면 가장 최신의 정보를 학습하지 못하게 된다. LLM을 보다 정확하고 최신의 상태로 유지하려는 프레임워크를 
+
+LLM은 Large Language Model의 약자로, 방대한 데이터와 최신 딥러닝 기술을 활용하여 자연어를 이해하고 생성할 수 있는 언어 모델
 
 RAG 
 텍스트 파일을 올리면 LLM이 이해가능한 벡터로 변환해서 저장해두는 기능을 제공하는 LLM 서비스들이 있어 거기에 2MB 정도 텍스트 파일을 올려두면 내 질문에 답을 할때 AI가 벡터 저장소에서 검색을 하고 해당 내용을 바탕으로 질문에 답을 해 그걸 RAG 기술이라고 부름

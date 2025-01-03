@@ -94,11 +94,8 @@ table {
   margin: 20px 0;
   font-family: Arial, sans-serif;
   border: 1px solid #ddd;
-  border-radius: 10px;
   overflow: hidden;
   border-collapse: collapse;
-  // border-collapse: separate; /* 셀 경계가 독립적으로 표시됨 */
-  border-radius: 10px; /* 테이블 모서리를 둥글게 설정 */
 }
 
 thead {
