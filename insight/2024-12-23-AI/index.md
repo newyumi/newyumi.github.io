@@ -3,13 +3,13 @@ layout: post
 title: "AI에 대한 정보 수집"
 subtitle: "이제는 더 자세히 알아야할 것 같아"
 type: ""
-# insight: true
+insight: true
 text: true
 author: "Yumi Yang"
 post-header: false
 header-img: ""
 # order: 7
-date: 2024-12-30
+date: 2025-01-04
 comments: true
 ---
 
@@ -104,20 +104,30 @@ Langchain은 검색, 생성을 포함한 여러 작업을 체인으로 묶어 �
 
 
 ### AI 에이전트
-모놀리틱 모델과 컴파운드 시스템
-가장 인기있고 일반적으로 사용되는 컴파운드 AI 시스템 중 하나가 바로 검색 증강 생성(RAG)이다.
+
 [AI 에이전트](https://brunch.co.kr/@ywkim36/160)
 
+AI 에이전트 개념을 설명하면서 생성형 AI 분야에서 일어나고 있는 변화를 설명해주는데 가장 중요한 변화를 `모놀리틱 모델`에서 `컴파운드 시스템`으로의 진화를 말한다.
 
-### sLM
+모놀리틱 모델은 하나의 통합된 시스템으로 모든 기능이 단일 구조에서 처리되는 방식을 말하는데, 초기 GPT 모델을 예시로 든다. 예를 들어, GPT-3와 같은 대형 모델은 자연어 처리에서의 다양한 작업을 하나의 모델에서 처리한다. 이는 내장된 훈련된 지식만으로 작동하는걸 의미한다.
 
-SLM이라고 작게 언어모델을 만들어서 파인튜닝하는게 유행이래 Ollama 다운받음
+반면에 컴파운드 시스템은 여러 개의 모듈화된 시스템이 상호작용하여 더 복잡한 문제를 해결하는 방식이다. 각 모듈은 특정한 작업을 수행하며, 서로 협력하여 작업 흐름을 처리하고, 다양한 출력을 생성하는 방식으로 운영되기 때문에, 모듈화와 확장성이 뛰어나고 각각의 모듈이 독립적으로 개발/업데이트/확장될 수 있다는 장점이 있다.
 
-[No-Code LLM 파인튜닝 : Axolotl](https://www.sktenterprise.com/bizInsight/blogDetail/dev/11003?utm_source=fb&utm_medium=feed&utm_campaign=branding&utm_content=axolotl_241217&fbclid=IwZXh0bgNhZW0BMABhZGlkAasZ47PNqVMBHWZ0fPZgsah9_YKrYmDPGtyhD17aJQEM6scZKXXOeNVTAaizTXRIJV5cTQ_aem_mMQXWIcHiNTSNN6tsKTpyw&utm_id=120217899822830595&utm_term=120218280808400595)
-[No-Code LLM 파인튜닝 : LLaMA-Factory](https://devocean.sk.com/search/techBoardDetail.do?ID=166098&boardType=&query=no-code&searchData=&page=&subIndex= )
+(마이크로 서비스 아키텍처가 생각나서 비교해보면, 마이크로 서비스 아키텍처는 컴파운드 시스템의 한 종류로 볼 수 있기도 하나 SW 개발에 특화된 독립적이고 배포 가능한 서비스들의 집합이라는 점에서 좀 더 구체적이고 특화된 아키텍처라고 답변을 받았다.)
+
+가장 인기있고 일반적으로 사용되는 컴파운드 AI 시스템 중 하나가 바로 검색 증강 생성(RAG)이다.
+
+AI 에이전트의 구성요소는 추론(Reasoning)/행동(Act)/메모리에 액세스(Access memory) 하는 능력이다.
+`ReAct` 에이전트는 Query -> Plan/ThinkSLOW/Act/Observe를 반복해서 Good Answer를 도착한다.
+앞으로 AI 에이전트를 사용한 사업이 많이 나타날 거라고 하는데 사람들이 어떻게 이용할지 기대가 된다.
 
 
 ### 기타 정보
 
 [OpenVoice V2](https://github.com/myshell-ai/OpenVoice)
 OpenVoice는 단지 짧은 오디오 샘플을 이용하여 다양한 언어와 스타일로 음성을 복제할 수 있는 기술을 제공. 이 기술은 TTS(Text-to-Speech) 분야에서 유연한 음성 스타일 제어와 언어간 제로-샷(AI 모델이 사전 학습하지 않은 작업이나 데이터에 대해 바로 수행할 수 있는 능력) 음성 복제를 가능하게 하여, 다양한 상업적 및 창의적 응용에 영향을 미칠 것으로 보입니다.
+
+sLM으로 작게 언어모델을 만들어서 파인튜닝하는게 유행이라는데, 다음으로 이 부분을 알아봐야겠다.
+
+[No-Code LLM 파인튜닝 : Axolotl](https://www.sktenterprise.com/bizInsight/blogDetail/dev/11003?utm_source=fb&utm_medium=feed&utm_campaign=branding&utm_content=axolotl_241217&fbclid=IwZXh0bgNhZW0BMABhZGlkAasZ47PNqVMBHWZ0fPZgsah9_YKrYmDPGtyhD17aJQEM6scZKXXOeNVTAaizTXRIJV5cTQ_aem_mMQXWIcHiNTSNN6tsKTpyw&utm_id=120217899822830595&utm_term=120218280808400595)
+[No-Code LLM 파인튜닝 : LLaMA-Factory](https://devocean.sk.com/search/techBoardDetail.do?ID=166098&boardType=&query=no-code&searchData=&page=&subIndex= )
