@@ -21,6 +21,7 @@ comments: true
 
 ### 서비스에 사용되고 있는 AI
 [생성 AI 덕분에 진성고객, 충성고객 늘어난다 - 티타임즈 유튜브](https://youtu.be/JiFU2B44edc?si=28N42o-S98uBOy7v)
+
 [해당 영상에 대한 정리와 RAG 관련된 내용](https://brunch.co.kr/@ericpm/5)
 
 배민 야놀자 쏘카 서비스에서 생성형 AI가 어떻게 적용되는지 정리해준 영상인데 예시들이 재미있다.
@@ -83,6 +84,7 @@ OpenAI가 'o1' 모델에 'GPT'라는 명칭을 사용하지 않은 이유는, �
 
 프로젝트 매니지먼트 책이 도움이 됐었는데, 저자가 AI에 쓴 글도 정리가 무척 잘되어있다.
 [LAG 이해하기](https://brunch.co.kr/@ywkim36/146)
+
 [검색 증강 생성(RAG)이란 무엇인가요?](https://aws.amazon.com/ko/what-is/retrieval-augmented-generation/)
 
 지금 LLM이 어디에나 있고 매일같이 학습자료를 삼키고 있지만, 특정한 날짜를 기준으로 학습한 것을 끊어서 서비스를 내놓게 되는데 그러면 가장 최신의 정보를 학습하지 못하게 된다. LLM을 보다 정확하고 최신의 상태로 유지하려는 프레임워크에 대한 아이디어가 RAG라고 한다.
@@ -130,4 +132,5 @@ OpenVoice는 단지 짧은 오디오 샘플을 이용하여 다양한 언어와 
 sLM으로 작게 언어모델을 만들어서 파인튜닝하는게 유행이라는데, 다음으로 이 부분을 알아봐야겠다.
 
 [No-Code LLM 파인튜닝 : Axolotl](https://www.sktenterprise.com/bizInsight/blogDetail/dev/11003?utm_source=fb&utm_medium=feed&utm_campaign=branding&utm_content=axolotl_241217&fbclid=IwZXh0bgNhZW0BMABhZGlkAasZ47PNqVMBHWZ0fPZgsah9_YKrYmDPGtyhD17aJQEM6scZKXXOeNVTAaizTXRIJV5cTQ_aem_mMQXWIcHiNTSNN6tsKTpyw&utm_id=120217899822830595&utm_term=120218280808400595)
+
 [No-Code LLM 파인튜닝 : LLaMA-Factory](https://devocean.sk.com/search/techBoardDetail.do?ID=166098&boardType=&query=no-code&searchData=&page=&subIndex= )
