@@ -78,35 +78,43 @@ OpenAI가 'o1' 모델에 'GPT'라는 명칭을 사용하지 않은 이유는, �
 추론형이 확실히 답변이 좋아서 돌아가면서 사용중인데 개인적으로는 o1이 가장 만족도가 높음.
 
 
+
 ### RAG (Retrieval-Augmented Generation)
 
+프로젝트 매니지먼트 책이 도움이 됐었는데, 저자가 AI에 쓴 글도 정리가 무척 잘되어있다.
+[LAG 이해하기](https://brunch.co.kr/@ywkim36/146)
 [검색 증강 생성(RAG)이란 무엇인가요?](https://aws.amazon.com/ko/what-is/retrieval-augmented-generation/)
 
-지금 LLM이 어디에나 있고 매일같이 학습자료를 삼키고 있지만, 특정한 날짜를 기준으로 학습한 것을 끊어서 서비스를 내놓게 되는데 그러면 가장 최신의 정보를 학습하지 못하게 된다. LLM을 보다 정확하고 최신의 상태로 유지하려는 프레임워크를 
+지금 LLM이 어디에나 있고 매일같이 학습자료를 삼키고 있지만, 특정한 날짜를 기준으로 학습한 것을 끊어서 서비스를 내놓게 되는데 그러면 가장 최신의 정보를 학습하지 못하게 된다. LLM을 보다 정확하고 최신의 상태로 유지하려는 프레임워크에 대한 아이디어가 RAG라고 한다.
+LLM에서 데이터가 없거나 최신화가 되어있지 않은 데이터에 RAG, 검색 증강 부분을 추가하면 LLM에 지식 컨텐츠 저장소를 추가한다는 뜻이다.
 
-LLM은 Large Language Model의 약자로, 방대한 데이터와 최신 딥러닝 기술을 활용하여 자연어를 이해하고 생성할 수 있는 언어 모델
+이 내용을 보고 파일 베이스 검색과 같은 방식이라고 볼 수 있는지에 대해 궁금증이 생겨서 AI한테 물어보니 개념적으로 다르다고 한다. 둘 다 정보 검색을 활용하지만, 기능/목적/작동 방식에 차이점이 있음.
 
-RAG 
-텍스트 파일을 올리면 LLM이 이해가능한 벡터로 변환해서 저장해두는 기능을 제공하는 LLM 서비스들이 있어 거기에 2MB 정도 텍스트 파일을 올려두면 내 질문에 답을 할때 AI가 벡터 저장소에서 검색을 하고 해당 내용을 바탕으로 질문에 답을 해 그걸 RAG 기술이라고 부름
-우리 같은 경우, 작업 중인 소스파일 레포지토리를 벡터저장소에 올려두고 질문을 할 수 있겠지 - 파일베이스 검색과는 다른데 이미 벡터 형태로 변환된 상태를 쓸거야 아마
+파일베이스 검색은 단순히 정보를 찾아주는 시스템에 가깝고 검색된 결과물은 파일이나 데이터로 직접 제공한다.
+RAG는 검색된 정보를 바탕으로 동적으로 텍스트를 생성하고 그 정보에 기반해 자연어로 완전한 응답을 생성한다.
+즉, RAG는 파일베이스 검색보다 더 고도화된 시스템으로, 외부 지식을 동적으로 검색하고, 그 정보를 바탕으로 사용자가 이해할 수 있는 자연어 답변을 생성하는데 중점을 둔다.
+
+
+### Langchain
+
+[Langchain 이해하기](https://brunch.co.kr/@ywkim36/147)
+
+이미 시장에 다양한 LLM이 나와있어 나의 필요에 맞게 일상적인 질문은 ChatGPT를 사용하기도 하고, 코드 관련된 부분은 Claude이나 o1을 쓰기도 한다. 여러개의 툴을 이용하고자 할 때 나오게 된 아이디어다. 이미 이전에 다양한 DB 커넥터를 연결하기 위해 ODBC/JDBC 등의 동작 개념과 비슷하게 Langchian은 LLM을 사용하는 애플리케이션 개발을 위한 오픈 소스 라이브러리로 다양한 End to End 애플리케이션 구축을 돕는다.
+Langchain은 검색, 생성을 포함한 여러 작업을 체인으로 묶어 관리하고, 외부 시스템과의 상호작용을 자동화한다. 내가 이해하기로는 Cursor나 Copilot과 같은 시스템이 Langchain을 이용하여 다양한 LLM을 효율적으로 활용하는 방식이라고 볼 수 있다. 다양한 API 호출이나 데이터 처리를 연결하고, 이를 바탕으로 동적인 결과를 생성하도록 한다고 이해하고 있다.
+
+
+### AI 에이전트
+모놀리틱 모델과 컴파운드 시스템
+가장 인기있고 일반적으로 사용되는 컴파운드 AI 시스템 중 하나가 바로 검색 증강 생성(RAG)이다.
+[AI 에이전트](https://brunch.co.kr/@ywkim36/160)
+
+
+### sLM
 
 SLM이라고 작게 언어모델을 만들어서 파인튜닝하는게 유행이래 Ollama 다운받음
 
 [No-Code LLM 파인튜닝 : Axolotl](https://www.sktenterprise.com/bizInsight/blogDetail/dev/11003?utm_source=fb&utm_medium=feed&utm_campaign=branding&utm_content=axolotl_241217&fbclid=IwZXh0bgNhZW0BMABhZGlkAasZ47PNqVMBHWZ0fPZgsah9_YKrYmDPGtyhD17aJQEM6scZKXXOeNVTAaizTXRIJV5cTQ_aem_mMQXWIcHiNTSNN6tsKTpyw&utm_id=120217899822830595&utm_term=120218280808400595)
 [No-Code LLM 파인튜닝 : LLaMA-Factory](https://devocean.sk.com/search/techBoardDetail.do?ID=166098&boardType=&query=no-code&searchData=&page=&subIndex= )
-
-
-https://www.facebook.com/share/14uDmceGhk/ 
-
-
-프로젝트 매니지먼트 책이 도움이 됐었는데, 저자가 AI에 쓴 글도 정리가 무척 잘되어있다.
-모놀리틱 모델과 컴파운드 시스템
-가장 인기있고 일반적으로 사용되는 컴파운드 AI 시스템 중 하나가 바로 검색 증강 생성(RAG)이다.
-[AI 에이전트](https://brunch.co.kr/@ywkim36/160)
-[LAG 이해하기](https://brunch.co.kr/@ywkim36/146)
-[Langchain 이해하기](https://brunch.co.kr/@ywkim36/147)
-
-
 
 
 ### 기타 정보
