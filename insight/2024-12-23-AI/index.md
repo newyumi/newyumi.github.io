@@ -3,13 +3,13 @@ layout: post
 title: "AI에 대한 정보 수집"
 subtitle: "이제는 더 자세히 알아야할 것 같아"
 type: ""
-# insight: true
+insight: true
 text: true
 author: "Yumi Yang"
 post-header: false
 header-img: ""
-# order: 7
-date: 2024-12-30
+order: 7
+date: 2025-01-04
 comments: true
 ---
 
@@ -21,6 +21,7 @@ comments: true
 
 ### 서비스에 사용되고 있는 AI
 [생성 AI 덕분에 진성고객, 충성고객 늘어난다 - 티타임즈 유튜브](https://youtu.be/JiFU2B44edc?si=28N42o-S98uBOy7v)
+
 [해당 영상에 대한 정리와 RAG 관련된 내용](https://brunch.co.kr/@ericpm/5)
 
 배민 야놀자 쏘카 서비스에서 생성형 AI가 어떻게 적용되는지 정리해준 영상인데 예시들이 재미있다.
@@ -74,35 +75,62 @@ OpenAI가 'o1' 모델에 'GPT'라는 명칭을 사용하지 않은 이유는, �
 
 구글 Gemini 2.0 [오픈AI 'o1' 대항마 떴다…구글, 추론 전용 AI 모델 공개](https://www.aipostkorea.com/news/articleView.html?idxno=5364&fbclid=IwY2xjawHU-_5leHRuA2FlbQIxMQABHR-uzrXc6GDZcApkGBbaEkaVqtgpjEBC3IczneFA51s_rBmgHlhfHUD2oA_aem_pxOo3mXsV6wrHafeSCZceQ)
 
+제미나이 쓰는 분들도 많던데, 경쟁적으로 개발되고 쓸 수 있는 생성형 AI가 많으니 소비자로써는 좋다.
+추론형이 확실히 답변이 좋아서 돌아가면서 사용중인데 개인적으로는 o1이 가장 만족도가 높음.
 
-### RAG
+
+
+### RAG (Retrieval-Augmented Generation)
+
+프로젝트 매니지먼트 책이 도움이 됐었는데, 저자가 AI에 쓴 글도 정리가 무척 잘되어있다.
+[LAG 이해하기](https://brunch.co.kr/@ywkim36/146)
 
 [검색 증강 생성(RAG)이란 무엇인가요?](https://aws.amazon.com/ko/what-is/retrieval-augmented-generation/)
 
-RAG 
-텍스트 파일을 올리면 LLM이 이해가능한 벡터로 변환해서 저장해두는 기능을 제공하는 LLM 서비스들이 있어 거기에 2MB 정도 텍스트 파일을 올려두면 내 질문에 답을 할때 AI가 벡터 저장소에서 검색을 하고 해당 내용을 바탕으로 질문에 답을 해 그걸 RAG 기술이라고 부름
-우리 같은 경우, 작업 중인 소스파일 레포지토리를 벡터저장소에 올려두고 질문을 할 수 있겠지 - 파일베이스 검색과는 다른데 이미 벡터 형태로 변환된 상태를 쓸거야 아마
+지금 LLM이 어디에나 있고 매일같이 학습자료를 삼키고 있지만, 특정한 날짜를 기준으로 학습한 것을 끊어서 서비스를 내놓게 되는데 그러면 가장 최신의 정보를 학습하지 못하게 된다. LLM을 보다 정확하고 최신의 상태로 유지하려는 프레임워크에 대한 아이디어가 RAG라고 한다.
+LLM에서 데이터가 없거나 최신화가 되어있지 않은 데이터에 RAG, 검색 증강 부분을 추가하면 LLM에 지식 컨텐츠 저장소를 추가한다는 뜻이다.
 
-SLM이라고 작게 언어모델을 만들어서 파인튜닝하는게 유행이래 Ollama 다운받음
+이 내용을 보고 파일 베이스 검색과 같은 방식이라고 볼 수 있는지에 대해 궁금증이 생겨서 AI한테 물어보니 개념적으로 다르다고 한다. 둘 다 정보 검색을 활용하지만, 기능/목적/작동 방식에 차이점이 있음.
 
-[No-Code LLM 파인튜닝 : Axolotl](https://www.sktenterprise.com/bizInsight/blogDetail/dev/11003?utm_source=fb&utm_medium=feed&utm_campaign=branding&utm_content=axolotl_241217&fbclid=IwZXh0bgNhZW0BMABhZGlkAasZ47PNqVMBHWZ0fPZgsah9_YKrYmDPGtyhD17aJQEM6scZKXXOeNVTAaizTXRIJV5cTQ_aem_mMQXWIcHiNTSNN6tsKTpyw&utm_id=120217899822830595&utm_term=120218280808400595)
-[No-Code LLM 파인튜닝 : LLaMA-Factory](https://devocean.sk.com/search/techBoardDetail.do?ID=166098&boardType=&query=no-code&searchData=&page=&subIndex= )
-
-
-https://www.facebook.com/share/14uDmceGhk/ 
+파일베이스 검색은 단순히 정보를 찾아주는 시스템에 가깝고 검색된 결과물은 파일이나 데이터로 직접 제공한다.
+RAG는 검색된 정보를 바탕으로 동적으로 텍스트를 생성하고 그 정보에 기반해 자연어로 완전한 응답을 생성한다.
+즉, RAG는 파일베이스 검색보다 더 고도화된 시스템으로, 외부 지식을 동적으로 검색하고, 그 정보를 바탕으로 사용자가 이해할 수 있는 자연어 답변을 생성하는데 중점을 둔다.
 
 
-프로젝트 매니지먼트 책이 도움이 됐었는데, 저자가 AI에 쓴 글도 정리가 무척 잘되어있다.
-모놀리틱 모델과 컴파운드 시스템
-가장 인기있고 일반적으로 사용되는 컴파운드 AI 시스템 중 하나가 바로 검색 증강 생성(RAG)이다.
-[AI 에이전트](https://brunch.co.kr/@ywkim36/160)
-[LAG 이해하기](https://brunch.co.kr/@ywkim36/146)
+### Langchain
+
 [Langchain 이해하기](https://brunch.co.kr/@ywkim36/147)
 
+이미 시장에 다양한 LLM이 나와있어 나의 필요에 맞게 일상적인 질문은 ChatGPT를 사용하기도 하고, 코드 관련된 부분은 Claude이나 o1을 쓰기도 한다. 여러개의 툴을 이용하고자 할 때 나오게 된 아이디어다. 이미 이전에 다양한 DB 커넥터를 연결하기 위해 ODBC/JDBC 등의 동작 개념과 비슷하게 Langchian은 LLM을 사용하는 애플리케이션 개발을 위한 오픈 소스 라이브러리로 다양한 End to End 애플리케이션 구축을 돕는다.
+Langchain은 검색, 생성을 포함한 여러 작업을 체인으로 묶어 관리하고, 외부 시스템과의 상호작용을 자동화한다. 내가 이해하기로는 Cursor나 Copilot과 같은 시스템이 Langchain을 이용하여 다양한 LLM을 효율적으로 활용하는 방식이라고 볼 수 있다. 다양한 API 호출이나 데이터 처리를 연결하고, 이를 바탕으로 동적인 결과를 생성하도록 한다고 이해하고 있다.
 
+
+### AI 에이전트
+
+[AI 에이전트](https://brunch.co.kr/@ywkim36/160)
+
+AI 에이전트 개념을 설명하면서 생성형 AI 분야에서 일어나고 있는 변화를 설명해주는데 가장 중요한 변화를 `모놀리틱 모델`에서 `컴파운드 시스템`으로의 진화를 말한다.
+
+모놀리틱 모델은 하나의 통합된 시스템으로 모든 기능이 단일 구조에서 처리되는 방식을 말하는데, 초기 GPT 모델을 예시로 든다. 예를 들어, GPT-3와 같은 대형 모델은 자연어 처리에서의 다양한 작업을 하나의 모델에서 처리한다. 이는 내장된 훈련된 지식만으로 작동하는걸 의미한다.
+
+반면에 컴파운드 시스템은 여러 개의 모듈화된 시스템이 상호작용하여 더 복잡한 문제를 해결하는 방식이다. 각 모듈은 특정한 작업을 수행하며, 서로 협력하여 작업 흐름을 처리하고, 다양한 출력을 생성하는 방식으로 운영되기 때문에, 모듈화와 확장성이 뛰어나고 각각의 모듈이 독립적으로 개발/업데이트/확장될 수 있다는 장점이 있다.
+
+(마이크로 서비스 아키텍처가 생각나서 비교해보면, 마이크로 서비스 아키텍처는 컴파운드 시스템의 한 종류로 볼 수 있기도 하나 SW 개발에 특화된 독립적이고 배포 가능한 서비스들의 집합이라는 점에서 좀 더 구체적이고 특화된 아키텍처라고 답변을 받았다.)
+
+가장 인기있고 일반적으로 사용되는 컴파운드 AI 시스템 중 하나가 바로 검색 증강 생성(RAG)이다.
+
+AI 에이전트의 구성요소는 추론(Reasoning)/행동(Act)/메모리에 액세스(Access memory) 하는 능력이다.
+`ReAct` 에이전트는 Query -> Plan/ThinkSLOW/Act/Observe를 반복해서 Good Answer를 도착한다.
+앞으로 AI 에이전트를 사용한 사업이 많이 나타날 거라고 하는데 사람들이 어떻게 이용할지 기대가 된다.
 
 
 ### 기타 정보
 
 [OpenVoice V2](https://github.com/myshell-ai/OpenVoice)
 OpenVoice는 단지 짧은 오디오 샘플을 이용하여 다양한 언어와 스타일로 음성을 복제할 수 있는 기술을 제공. 이 기술은 TTS(Text-to-Speech) 분야에서 유연한 음성 스타일 제어와 언어간 제로-샷(AI 모델이 사전 학습하지 않은 작업이나 데이터에 대해 바로 수행할 수 있는 능력) 음성 복제를 가능하게 하여, 다양한 상업적 및 창의적 응용에 영향을 미칠 것으로 보입니다.
+
+sLM으로 작게 언어모델을 만들어서 파인튜닝하는게 유행이라는데, 다음으로 이 부분을 알아봐야겠다.
+
+[No-Code LLM 파인튜닝 : Axolotl](https://www.sktenterprise.com/bizInsight/blogDetail/dev/11003?utm_source=fb&utm_medium=feed&utm_campaign=branding&utm_content=axolotl_241217&fbclid=IwZXh0bgNhZW0BMABhZGlkAasZ47PNqVMBHWZ0fPZgsah9_YKrYmDPGtyhD17aJQEM6scZKXXOeNVTAaizTXRIJV5cTQ_aem_mMQXWIcHiNTSNN6tsKTpyw&utm_id=120217899822830595&utm_term=120218280808400595)
+
+[No-Code LLM 파인튜닝 : LLaMA-Factory](https://devocean.sk.com/search/techBoardDetail.do?ID=166098&boardType=&query=no-code&searchData=&page=&subIndex= )

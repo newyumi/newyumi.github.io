@@ -16,7 +16,7 @@ role: "시스템 Structure 설계 및 Frontend 개발"
 target-specific: "IoT status data system, Web programming"
 team: "PM 1, 기술 PM 1, 서비스 기획 1, <br/> Blockchain 2(자문위원 1), Front-end 2, Back-end 1, 디자이너 1"
 platforms: "Web"
-date: "June 2022 - May 2024"
+date: "June 2022 - Apr 2024"
 order: 8
 ---
 

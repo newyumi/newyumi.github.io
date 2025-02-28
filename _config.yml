@@ -1,6 +1,3 @@
-# Permalinks
-permalink: /:year-:month-:day/:title
-
 # Setup
 title: newyumi
 baseurl: ""
@@ -37,3 +34,13 @@ comments:
   utterances:
   theme: "dark-blue"
   issue_term: "pathname"
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+  # Permalinks
+permalink: /:year-:month-:day-:title
+paginate: 5

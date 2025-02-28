@@ -20,12 +20,8 @@ layout: default
 		<h2 class="post-subtitle">
 			{{ page.subtitle }}
 		</h2>
-		<h3 class="post-date">
-			{{page.date}}
-		</h3>
 	</div>
 
-	<!--포트폴리오 상단 정보-->
 	{% if page.portfolio == true %}
 	<article class="portfolio-info">
 		<div>
@@ -52,7 +48,6 @@ layout: default
 	</article>
 	{% endif %}
 
-	<!--draft 일 때-->
 	{% if page.draft == true %}
 	<div class="catalogue-draft-message">
 		<h1>
@@ -62,10 +57,8 @@ layout: default
 	</div>
 	{% endif %}
 
-	<!--큐레이션 영역-->
 	{{ content }}
 
-	<!--comments 영역-->
 	{% if page.comments == true %}
 	{% include comments.html %}
 	{% endif %}
